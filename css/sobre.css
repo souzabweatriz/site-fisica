@@ -113,15 +113,15 @@ li a:hover {
     background-color: #f5f5f5;
     padding: 20px 0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .menu-sobre ul {
     display: flex;
     gap: 10px;
-    margin-left: 450px;
 }
 
 .menu-sobre ul li {
