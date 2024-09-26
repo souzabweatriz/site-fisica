@@ -22,6 +22,7 @@
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--header-color);
     font-family: "Montserrat", sans-serif;
 }
@@ -83,6 +84,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     position: relative; 
     margin-top: 1000px;
+}
 
 .social-media-container {
     background-color: #D71920; 
@@ -104,8 +106,8 @@ footer {
 }
 
 .social-icon {
-    width: 30px; 
-    height: 30px; 
+    width: 50px; 
+    height: 50px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,21 +141,19 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
 }
-}
 
 .menu-sobre {
-    background-color: #f5f5f5;
-    padding: 20px 0;
+    background-color: #ffffff;
+    height: 70px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 .menu-sobre ul {
     display: flex;
-    gap: 10px;
-    margin-left: 450px;
+    gap: 30px;
 }
 
 .menu-sobre ul li {
@@ -161,7 +161,6 @@ footer {
 }
 
 .menu-sobre ul li a {
-    display: inline-block;
     padding: 10px 20px;
     border-radius: 25px;
     background-color: #e0e0e0;
@@ -200,15 +199,79 @@ footer {
     width: 100%;
     height: 400px;
 }
+
 .line-p {
-    width: 17%;
-    height: 3px;
-    background-color: var(--header-color);
-    margin-top: 10px;
+    width: 22%;
+    height: 4px;
+    background-color: #a60000;
+    margin-top: 3px;
     display: flex;
     flex-direction: column;
 }
+
+.line-p2 {
+    width: 33.4%;
+    height: 4px;
+    background-color: #a60000;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line-separar {
+    background-color: #a60000;
+    height: 4px;
+    width: 400px;
+    display: center;
+    margin: auto;
+    border-radius: 14px;
+}
+
 .text-home {
     width: 500px;
     display: flex;
+}
+
+.titulo-conteudo {
+    width: 376px;
+}
+
+.titulo-conteudo2 {
+    width: 574px;
+}
+
+.titulo-participantes {
+    display: flex;
+    margin-top: 100px;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid #a60000;
+}
+
+.titulo-participantes2 {
+    display: flex;
+    margin-top: 100px;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid #a60000;
+}
+
+.image-home-text img {
+    width: 550px;
+    border-radius: 15px;
+}
+
+.conteudo-home {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.titulos-conteudos {
+    display: flex;
+    justify-content: space-around;
+    gap: 160px;
+    margin-left: 20px;
 }
