@@ -326,3 +326,60 @@ footer {
     padding: 20px;
     padding-top: 70px;
 }
+
+.line-x {
+    width: 100%;
+    height: 3px;
+    background-color: var(--header-color);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
