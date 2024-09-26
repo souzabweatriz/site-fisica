@@ -26,6 +26,7 @@
     align-items: center;
     justify-content: center;
     font-family: "Montserrat", sans-serif;
+    margin-top: 200px;
 }
 
 .menu-sobre ul {
@@ -151,4 +152,9 @@
     justify-content: space-around;
     gap: 160px;
     margin-left: 20px;
+}
+
+.image-home img {
+    width: 100%;
+    height: 600px;
 }
