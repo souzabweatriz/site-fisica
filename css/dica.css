@@ -124,8 +124,14 @@
 .dicas-img-txt {
     display: flex;
     gap: 30px;
+    margin-bottom: 60px;
+    width: 800px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bold {
     font-weight: bold;
 }
+
+
