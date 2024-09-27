@@ -117,6 +117,15 @@
     margin-left: 438px;
 }
 
+.dica-img img {
+    width: 300px;
+}
+
 .dicas-img-txt {
     display: flex;
+    gap: 30px;
+}
+
+.bold {
+    font-weight: bold;
 }
