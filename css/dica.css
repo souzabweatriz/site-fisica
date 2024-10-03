@@ -99,8 +99,11 @@
     margin-bottom: 40px;
 }
 
-.resumo-grafico {
-    margin-left: 438px;
+.resumo-grafico p {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 13px
 }
 
 .grafico {
