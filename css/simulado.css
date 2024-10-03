@@ -84,3 +84,16 @@
     margin: auto;
     border-radius: 14px;
 }
+
+.titulo-participantes {
+    display: flex;
+    margin-top: 100px;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid #a60000;
+}
+
+.titulos-conteudos {
+    display: flex;
+    margin-left: 438px;
+}
