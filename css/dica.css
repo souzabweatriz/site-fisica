@@ -100,7 +100,13 @@
 }
 
 .resumo-grafico {
-    margin-left: 438px;
+    margin-left: 13px;
+}
+
+.resumo-grafico p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .grafico {
