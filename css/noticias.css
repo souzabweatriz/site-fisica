@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --hover-header: #000000;
+    --header-color: #e30613;
+    --text-color: #ffffff;
+    --secondary-color: #ffffff;
+}
+
+.card-noticias {
+    background-color: var(--header-color);
+    width: 40px;
+    height: 40px;
+}
+.menu-block:hover {
+    transform: scale(1.03);   
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.menu-block h2 {
+    color: #9A1915;
+    font-size: 1.5em; 
+    text-align: center;
+    background-color: rgb(236, 226, 226);
+}
+.menu-block p {
+    font-size: 1.3em; 
+    line-height: 1.5; 
+}
