@@ -95,5 +95,26 @@
 
 .titulos-conteudos {
     display: flex;
+    margin-bottom: 40px;
+}
+
+.simulado-img img {
+    width: 300px;
+}
+
+.simulados-img-txt {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+    width: 800px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.align {
     margin-left: 438px;
 }
