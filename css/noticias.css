@@ -12,12 +12,24 @@
     --header-color: #e30613;
     --text-color: #ffffff;
     --secondary-color: #ffffff;
+    --card-color: gray;
 }
 
 .card-noticias {
-    background-color: var(--header-color);
-    width: 40px;
-    height: 40px;
+    background-color: var(--card-color);
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1rem;
+}
+.card-noticias img {
+    width: 80%;
+    height: 40%;
+    margin-top: 1rem;
+    border-radius: 1rem;
 }
 .menu-block:hover {
     transform: scale(1.03);   
@@ -32,4 +44,16 @@
 .menu-block p {
     font-size: 1.3em; 
     line-height: 1.5; 
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.total-cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
