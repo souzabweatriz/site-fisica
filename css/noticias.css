@@ -31,29 +31,26 @@
     margin-top: 1rem;
     border-radius: 1rem;
 }
-.menu-block:hover {
-    transform: scale(1.03);   
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+.total-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
 }
-.menu-block h2 {
-    color: #9A1915;
-    font-size: 1.5em; 
-    text-align: center;
-    background-color: rgb(236, 226, 226);
-}
-.menu-block p {
-    font-size: 1.3em; 
-    line-height: 1.5; 
-}
+
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between; 
     align-items: center;
+    flex-wrap: wrap; 
     width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
 }
-.total-cards {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+
+
+.card-noticias p {
+    width: 18%
 }
+
