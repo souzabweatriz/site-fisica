@@ -19,31 +19,23 @@
     width: 100%;
 }
 
-/*comecei tudo*/
 header {
-    background-color: var(--header-color);
     display: flex;
-    height: 5rem;
-    flex-direction: row;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 5rem;
+    background-color: var(--header-color);
+    font-family: "Montserrat", sans-serif;
 }
 
 .image-header {
-    width: 30%;
+    margin-left: 80px;
 }
 
 .image-header img {
-    width: 70%;
-    margin-left: 20px;
+    width: 350px;
 }
 
 .line {
+    margin: 20px 250px;
     width: 20%;
     height: 60%;
 }
@@ -57,27 +49,27 @@ header {
 .nav-bar {
     display: flex;
     flex-direction: row;
-    gap: 7rem;
-    width: 34%;
-}
-
-.nav-bar li a {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--text-color );
-    transition: 0.3s ease-in-out;
+    gap: 10rem;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.nav-bar li a:hover {
-    font-family: 'Montserrat', sans-serif;
+li a{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    color: var(--text-color);
+}
+
+li a:hover {
     color: var(--hover-header);
-    transition: 0.3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .menu {
-    width: 2.2%;
+    width: 40px;
     height: 40px;
+    margin-left: 300px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 
@@ -96,7 +88,7 @@ footer {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position: relative; 
-    margin-top: 1000px;
+
 }
 .social-media-container {
     background-color: #D71920; 
@@ -252,6 +244,80 @@ footer {
     gap: 160px;
     margin-bottom: 40px;
 }
-.align {
-    margin-left: 438px;
+.menu-mobile ul{
+    background-color: #ff0000;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 82px;
+    right: 0;
+    width: 405px;
+    height: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    overflow: hidden;
+    margin-right: 0;
+    z-index: 2;
 }
+
+.menu-mobile.abrir ul {
+    visibility: visible;
+    height: calc(72vh - 7px);
+}
+
+.menu-mobile ul li:hover{
+    background-color: #000000c4;
+}
+
+.menu-mobile ul li {
+    display: block;
+    padding: 10px ;
+    font-size: 16px ;
+    text-align: center;
+}
+
+.menu-mobile ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#btn-menu{
+    width: 45px;
+    height: 45px;
+    border: 0px solid #ff0000;
+    background: transparent;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.linha{
+    width: 40px;
+    height: 3px;
+    background-color: #ffffff;
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    transform-origin: center;
+    transition: .2s;
+}
+
+#btn-menu.ativo .linha:nth-child(1){
+    transform: translateY(12px) rotate(-45deg);
+    background-color: #ffffff;
+}
+
+#btn-menu.ativo .linha:nth-child(3){
+    transform: translateY(-15px) rotate(45deg);
+    background-color: #ffffff;
+}
+
+#btn-menu.ativo .linha:nth-child(2){
+    width: 0;
+    height: 4px;
+}
+
+#btn-menu.ativo{
+    border: 0px solid #000000;
+
