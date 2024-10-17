@@ -12,24 +12,122 @@
     --header-color: #e30613;
     --text-color: #ffffff;
     --secondary-color: #ffffff;
+    --card-color: gray;
 }
 
 .card-noticias {
-    background-color: var(--header-color);
-    width: 40px;
-    height: 40px;
+    background-color: var(--card-color);
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1rem;
 }
-.menu-block:hover {
-    transform: scale(1.03);   
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+
+.card-noticias img {
+    width: 80%;
+    height: 40%;
+    margin-top: 1rem;
+    border-radius: 1rem;
 }
-.menu-block h2 {
-    color: #9A1915;
-    font-size: 1.5em; 
+.total-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.card-noticias p {
+    width: 80%;
+    margin-top: 2%;
+}
+.menu-mobile ul{
+    background-color: #ff0000;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 82px;
+    right: 0;
+    width: 405px;
+    height: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    overflow: hidden;
+    margin-right: 0;
+    z-index: 2;
+}
+
+.menu-mobile.abrir ul {
+    visibility: visible;
+    height: calc(72vh - 7px);
+}
+
+.menu-mobile ul li:hover{
+    background-color: #000000c4;
+}
+
+.menu-mobile ul li {
+    display: block;
+    padding: 10px ;
+    font-size: 16px ;
     text-align: center;
-    background-color: rgb(236, 226, 226);
 }
-.menu-block p {
-    font-size: 1.3em; 
-    line-height: 1.5; 
+
+.menu-mobile ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#btn-menu{
+    width: 45px;
+    height: 45px;
+    border: 0px solid #ff0000;
+    background: transparent;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.linha{
+    width: 40px;
+    height: 3px;
+    background-color: #ffffff;
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    transform-origin: center;
+    transition: .2s;
+}
+
+#btn-menu.ativo .linha:nth-child(1){
+    transform: translateY(12px) rotate(-45deg);
+    background-color: #ffffff;
+}
+
+#btn-menu.ativo .linha:nth-child(3){
+    transform: translateY(-15px) rotate(45deg);
+    background-color: #ffffff;
+}
+
+#btn-menu.ativo .linha:nth-child(2){
+    width: 0;
+    height: 4px;
+}
+
+#btn-menu.ativo{
+    border: 0px solid #000000;
 }
