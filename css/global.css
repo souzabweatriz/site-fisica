@@ -9,12 +9,10 @@
 }
 
 :root {
-    --preto: #000000 ;
-    --vermelho-header: #e30613;
-    --texto-cor: #ffffff;
-    --fundo-menu: #878787;
-    --menu-vermelho: #681413
-    --vermelho-line: #9a1915
+    --hover-header: #000000;
+    --header-color: #e30613;
+    --text-color: #ffffff;
+    --secondary-color: #ffffff;
 }
 
 #container {
@@ -23,7 +21,7 @@
 
 /*comecei tudo*/
 header {
-    background-color: var(--vermelho-header);
+    background-color: var(--header-color);
     display: flex;
     height: 5rem;
     flex-direction: row;
@@ -53,7 +51,7 @@ header {
 .line .traco {
     width: 0.6%;
     height: 100%;
-    background-color: var(--texto-cor);
+    background-color: var(--secondary-color);
 }
 
 .nav-bar {
@@ -91,7 +89,7 @@ header {
 }
 
 footer {
-    background-color: var(--vermelho-line); 
+    background-color: #a12720; 
     padding: 0; 
     margin: 0; 
     text-align: center;
@@ -101,7 +99,7 @@ footer {
     margin-top: 1000px;
 }
 .social-media-container {
-    background-color: var(--vermelho-header); 
+    background-color: #D71920; 
     padding: 10px; 
     border-radius: 5px;
     margin-bottom: -5px; 
@@ -111,7 +109,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px; 
-    background-color: var(--vermelho-header);
+    background-color: #D71920;
     padding: 10px;
     border-radius: 5px;
     width: calc(100% + 20px);
@@ -151,13 +149,13 @@ footer {
 .divider {
     width: 2px;
     height: 60px;
-    background-color: var(--texto-cor);
+    background-color: white;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .menu-sobre {
-    background-color: var(--texto-cor);
+    background-color: #ffffff;
     height: 70px;
     display: flex;
     align-items: center;
@@ -178,7 +176,7 @@ footer {
 .menu-sobre ul li a {
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: var(--fundo-menu);
+    background-color: #e0e0e0;
     color: #333;
     font-weight: bold;
     font-size: 16px;
@@ -187,18 +185,27 @@ footer {
 
 .menu-sobre ul li a.active,
 .menu-sobre ul li a:hover {
-    background-color: var(--menu-vermelho);
+    background-color: #a60000;
     color: white;
+}
+.sobre-banner {
+    display: block;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .image-banner img {
     width: 100%;
+    max-width: 1500px;
     height: auto;
     opacity: 0.7;
+    margin-top: 0px;
 }
 
 .image-home {
-    background-color: var(--preto);
+    background-color:#000000;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -208,7 +215,7 @@ footer {
 .line-p {
     width: 22%;
     height: 4px;
-    background-color: var(--vermelho-line);
+    background-color: #a60000;
     margin-top: 3px;
     display: flex;
     flex-direction: column;
@@ -217,14 +224,14 @@ footer {
 .line-p2 {
     width: 33.4%;
     height: 4px;
-    background-color: var(--vermelho-line);
+    background-color: #a60000;
     margin-top: 3px;
     display: flex;
     flex-direction: column;
 }
 
 .line-separar {
-    background-color: var(--vermelho-line);
+    background-color: #a60000;
     height: 4px;
     width: 400px;
     display: center;
@@ -237,11 +244,14 @@ footer {
     margin-top: 100px;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
-    border-bottom: 3px solid var(--vermelho-line);
+    border-bottom: 3px solid #a60000;
 }
 
 .titulos-conteudos {
     display: flex;
     gap: 160px;
     margin-bottom: 40px;
+}
+.align {
+    margin-left: 438px;
 }
