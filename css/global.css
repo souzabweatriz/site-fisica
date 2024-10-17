@@ -9,61 +9,77 @@
 }
 
 :root {
-    --hover-header: #000000;
-    --header-color: #e30613;
-    --text-color: #ffffff;
-    --secondary-color: #ffffff;
+    --preto: #000000 ;
+    --vermelho-header: #e30613;
+    --texto-cor: #ffffff;
+    --fundo-menu: #878787;
+    --menu-vermelho: #681413
+    --vermelho-line: #9a1915
 }
 
 #container {
     width: 100%;
 }
 
+/*comecei tudo*/
 header {
+    background-color: var(--vermelho-header);
     display: flex;
+    height: 5rem;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    background-color: var(--header-color);
-    font-family: "Montserrat", sans-serif;
+    gap: 5rem;
 }
 
 .image-header {
-    margin-left: 80px;
+    width: 30%;
 }
 
 .image-header img {
-    width: 350px;
+    width: 70%;
+    margin-left: 20px;
 }
 
 .line {
-    width: 2px;
-    height: 40px;background-color: var(--secondary-color);
-    margin: 20px 250px;
+    width: 20%;
+    height: 60%;
+}
+
+.line .traco {
+    width: 0.6%;
+    height: 100%;
+    background-color: var(--texto-cor);
 }
 
 .nav-bar {
     display: flex;
     flex-direction: row;
-    gap: 10rem;
+    gap: 7rem;
+    width: 34%;
+}
+
+.nav-bar li a {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color );
+    transition: 0.3s ease-in-out;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-li a{
-    cursor: pointer;
-    transition: .3s ease-in-out;
-    color: var(--text-color);
-}
-
-li a:hover {
+.nav-bar li a:hover {
+    font-family: 'Montserrat', sans-serif;
     color: var(--hover-header);
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .menu {
-    width: 40px;
+    width: 2.2%;
     height: 40px;
-    margin-left: 300px;
-    margin-bottom: 10px;
     cursor: pointer;
 }
 
@@ -75,7 +91,7 @@ li a:hover {
 }
 
 footer {
-    background-color: #a12720; 
+    background-color: var(--vermelho-line); 
     padding: 0; 
     margin: 0; 
     text-align: center;
@@ -84,7 +100,7 @@ footer {
     position: relative; 
 }
 .social-media-container {
-    background-color: #D71920; 
+    background-color: var(--vermelho-header); 
     padding: 10px; 
     border-radius: 5px;
     margin-bottom: -5px; 
@@ -94,7 +110,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px; 
-    background-color: #D71920;
+    background-color: var(--vermelho-header);
     padding: 10px;
     border-radius: 5px;
     width: calc(100% + 20px);
@@ -134,13 +150,13 @@ footer {
 .divider {
     width: 2px;
     height: 60px;
-    background-color: white;
+    background-color: var(--texto-cor);
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .menu-sobre {
-    background-color: #ffffff;
+    background-color: var(--texto-cor);
     height: 70px;
     display: flex;
     align-items: center;
@@ -161,7 +177,7 @@ footer {
 .menu-sobre ul li a {
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: #e0e0e0;
+    background-color: var(--fundo-menu);
     color: #333;
     font-weight: bold;
     font-size: 16px;
@@ -170,27 +186,18 @@ footer {
 
 .menu-sobre ul li a.active,
 .menu-sobre ul li a:hover {
-    background-color: #a60000;
+    background-color: var(--menu-vermelho);
     color: white;
-}
-.sobre-banner {
-    display: block;
-    margin-top: 40px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 
 .image-banner img {
     width: 100%;
-    max-width: 1500px;
     height: auto;
     opacity: 0.7;
-    margin-top: 0px;
 }
 
 .image-home {
-    background-color:#000000;
+    background-color: var(--preto);
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -200,7 +207,7 @@ footer {
 .line-p {
     width: 22%;
     height: 4px;
-    background-color: #a60000;
+    background-color: var(--vermelho-line);
     margin-top: 3px;
     display: flex;
     flex-direction: column;
@@ -209,14 +216,14 @@ footer {
 .line-p2 {
     width: 33.4%;
     height: 4px;
-    background-color: #a60000;
+    background-color: var(--vermelho-line);
     margin-top: 3px;
     display: flex;
     flex-direction: column;
 }
 
 .line-separar {
-    background-color: #a60000;
+    background-color: var(--vermelho-line);
     height: 4px;
     width: 400px;
     display: center;
@@ -229,7 +236,7 @@ footer {
     margin-top: 100px;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
-    border-bottom: 3px solid #a60000;
+    border-bottom: 3px solid var(--vermelho-line);
 }
 
 .titulos-conteudos {
