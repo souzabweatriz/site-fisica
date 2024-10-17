@@ -35,9 +35,15 @@ header {
 }
 
 .line {
-    width: 2px;
-    height: 40px;background-color: var(--secondary-color);
     margin: 20px 250px;
+    width: 20%;
+    height: 60%;
+}
+
+.line .traco {
+    width: 0.6%;
+    height: 100%;
+    background-color: var(--secondary-color);
 }
 
 .nav-bar {
@@ -314,4 +320,4 @@ footer {
 
 #btn-menu.ativo{
     border: 0px solid #000000;
-}
+
