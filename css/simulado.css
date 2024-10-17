@@ -1,19 +1,9 @@
-:root {
-    --preto: #000000 ;
-    --vermelho-header: #e30613;
-    --texto-cor: #ffffff;
-    --fundo-menu: #878787;
-    --menu-vermelho: #681413
-    --vermelho-line: #9a1915
-}
-
-
 #container {
     width: 100%;
 }
 
 .menu-sobre {
-    background-color: var(--texto-cor);
+    background-color: #ffffff;
     height: 70px;
     display: flex;
     align-items: center;
@@ -34,8 +24,8 @@
 .menu-sobre ul li a {
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: var(--fundo-menu);
-    color: var(--preto);
+    background-color: #e0e0e0;
+    color: #333;
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
@@ -43,8 +33,8 @@
 
 .menu-sobre ul li a.active,
 .menu-sobre ul li a:hover {
-    background-color: var(--menu-vermelho);
-    color: var(--texto-cor);
+    background-color: #a60000;
+    color: white;
 }
 
 .sobre-banner {
@@ -61,7 +51,7 @@
 }
 
 .image-home {
-    background-color: var(--preto);
+    background-color:#000000;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -71,7 +61,7 @@
 .line-p {
     width: 22%;
     height: 4px;
-    background-color: var(--vermelho-line);
+    background-color: #a60000;
     margin-top: 3px;
     display: flex;
     flex-direction: column;
@@ -80,14 +70,14 @@
 .line-p2 {
     width: 33.4%;
     height: 4px;
-    background-color: var(--vermelho-line);
+    background-color: #a60000;
     margin-top: 3px;
     display: flex;
     flex-direction: column;
 }
 
 .line-separar {
-    background-color: var(--vermelho-line);
+    background-color: #a60000;
     height: 4px;
     width: 400px;
     display: center;
@@ -100,7 +90,7 @@
     margin-top: 100px;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
-    border-bottom: 3px solid var(--vermelho-line);
+    border-bottom: 3px solid #a60000;
 }
 
 .titulos-conteudos {

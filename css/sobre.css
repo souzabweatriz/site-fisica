@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -27,7 +26,6 @@
     align-items: center;
     justify-content: center;
     font-family: "Montserrat", sans-serif;
-    margin-top: 100px;
 }
 
 .menu-sobre ul {
@@ -54,22 +52,48 @@
     background-color: #a60000;
     color: white;
 }
-.image-home img {
-    width: 100%;
-    height: 30rem;
+
+.sobre-banner {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.line-x {
-    width: 17%;
-    height: 3px;
-    background-color: #D71920;
+.image-banner img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.image-home {
+    background-color:#000000;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400%;
+}
+
+.line-p {
+    width: 22%;
+    height: 4px;
+    background-color: #a60000;
+    margin-top: 3px;
     display: flex;
     flex-direction: column;
 }
 
+.line-p2 {
+    width: 33.4%;
+    height: 4px;
+    background-color: #a60000;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+}
 
-.line-l {
-    background-color: #D71920;
+.line-separar {
+    background-color: #a60000;
     height: 4px;
     width: 400px;
     display: center;
@@ -77,30 +101,47 @@
     border-radius: 14px;
 }
 
-.sobre {
-    height: 50px;
+.text-home {
     width: 500px;
-    justify-content: center;
-    text-align: justify;
     display: flex;
-    margin-left: 300px;
-    margin-top: 30px;
-
 }
 
-.titulo {
-    margin-left: 300px;
+.titulo-participantes {
+    display: flex;
     margin-top: 100px;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid #a60000;
 }
 
-.line-s {
-    background-color: #D71920;
-    height: 4px;
-    width: 400px;
-    margin-left: 300px;  
+.titulo-participantes2 {
+    display: flex;
+    margin-top: 100px;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid #a60000;
 }
 
-.sobre-nos {
-    align-items: center;
-    justify-content: center;
+.image-home-text img {
+    width: 550px;
+    border-radius: 15px;
+}
+
+.conteudo-home {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.titulos-conteudos {
+    display: flex;
+    justify-content: space-around;
+    gap: 160px;
+}
+
+.image-home img {
+    width: 100%;
+    height: 500px;
 }
