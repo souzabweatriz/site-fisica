@@ -133,3 +133,31 @@
 .escritas-header img {
     display: block;
 }
+
+.img-text p {
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 50%;
+}
+
+.foto-carreira2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 400px;
+}
+
+.img-text2 {
+    width: 290px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+.img-text2 p {
+    margin-top: 6%;
+    text-align: center;
+}
+
+.foto-carreira2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 400px;
+}
