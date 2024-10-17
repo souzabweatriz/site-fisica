@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -14,10 +15,6 @@
     --header-color: #e30613;
     --text-color: #ffffff;
     --secondary-color: #ffffff;
-}
-
-#container {
-    width: 100%;
 }
 
 
@@ -49,6 +46,7 @@
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
+
 }
 
 .menu-sobre ul li a.active,
@@ -108,7 +106,7 @@
 }
 
 
-}
+
 
 
 
