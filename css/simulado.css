@@ -84,3 +84,86 @@
     margin: auto;
     border-radius: 14px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: #444;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Estilos para mostrar a resposta certa */
+.resposta-certa {
+    color: green;
+    font-weight: bold;
+    display: none; /* Esconde inicialmente */
+}
+
+.show-answer .resposta-certa {
+    display: inline; /* Exibe a resposta certa após o envio */
+}
