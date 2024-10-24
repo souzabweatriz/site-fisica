@@ -5,31 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/carreira.css">
     <link rel="stylesheet" href="/css/global.css">
+    <script src="../global.js"></script>
     <title>Vestibular - Física</title>
 </head>
 <body>
     <div id="container">
         <header>
-            <div class="image-header">
-                <img src="/img/logo-sesi-senai.png" alt="">
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="cadastro.html">Cadastre-se</a></li>
+                </ul> 
+
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+            <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias"> 
+                    <ul>
+                        <li><a href="portugues.html">Português</a> </li>
+                        <li><a href="matematica.html">Matemática</a></li>
+                        <li><a href="historia.html">História</a></li>
+                        <li><a href="geografia.html">Geografia</a></li>
+                        <li><a href="biologia.html">Biologia</a></li>
+                        <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                        <li><a href="quimica.html">Química</a></li>
+                        <li><a href="artes.html">Artes</a></li>
+                        <li><a href="filosofia.html">Filosofia</a></li>
+                        <li><a href="sociologia.html">Sociologia</a></li>
+                        <li><a href="edFisica.html">Ed. Física</a></li>
+                        <li><a href="ingles.html">Inglês</a></li>
+                    </ul>
+                </nav>
             </div>
-
-            <div class="line">
-
-            </div>
-
-            <ul class="nav-bar">
-                <li><a href="../index.html">Início</a></li>
-                <li><a href="/pages/sobre.html">Sobre Nós</a></li>
-                <li><a href="/pages/cadastre.html">Cadastre-se</a></li>
-            </ul> 
-
-            <div class="menu">
-                <div class="line1"> </div>
-
-                <div class="line2"> </div>
-
-                <div class="line3"> </div>
             </div>
         </header>
     </div>
@@ -44,8 +63,10 @@
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="#" class="active">Carreiras</a></li>
                 <li><a href="dica.html">Dicas</a></li>
+
                 <li><a href="simulado.html">Simulados</a></li>
-                <li><a href="#">Notícias</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+
                 <li><a href="#">Vídeo-aulas</a></li>
             </ul>
         </nav>
@@ -81,22 +102,20 @@
     <footer>
         <div class="social-media-container">
             <div class="social-media">
-                <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
-                <a href="#" class="social-icon"><img src="img/Instagram.png" alt="Instagram"></a>
-                <a href="#" class="social-icon"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
-                <a href="#" class="social-icon"><img src="img/Youtube.png" alt="YouTube"></a>
-                <a href="#" class="social-icon"><img src="img/Linkedin.png" alt="LinkedIn"></a>
+                <a href="#" class="social-icon"><img src="../img/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="#" class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                <a href="#" class="social-icon"><img src="../img/Linkedin.png" alt="LinkedIn"></a>
             </div>
         </div>
-
+        
         <div class="addresses">
             <div class="address">
                 <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
                 <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
             </div>
-
             <div class="divider"></div>
-
             <div class="address">
                 <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
                 <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
