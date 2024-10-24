@@ -134,14 +134,7 @@ header {
     height: 400px;
 }
 
-.line-p {
-    width: 22%;
-    height: 4px;
-    background-color: #a60000;
-    margin-top: 3px;
-    display: flex;
-    flex-direction: column;
-}
+
 
 .line-p2 {
     width: 33.4%;
