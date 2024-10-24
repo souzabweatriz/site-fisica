@@ -102,8 +102,10 @@
 
 .foto-carreira {
     display: flex;
-    justify-content: space-around;
-    margin: 0 400px;
+    justify-content: center;
+    margin: auto;
+    gap: 5rem;
+    width: 100%;
 }
 
 .img-text {
