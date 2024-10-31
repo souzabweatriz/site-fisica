@@ -106,16 +106,16 @@
 }
 
 .text-home {
-    width: 500px;
+    width: 20%;
     display: flex;
 }
 
 .titulo-conteudo {
-    width: 376px;
+    width: 20%;
 }
 
 .titulo-conteudo2 {
-    width: 574px;
+    width: 30.6%;
 }
 
 .titulo-participantes {
@@ -141,7 +141,8 @@
 
 .conteudo-home {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 29%;
     margin-top: 80px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
