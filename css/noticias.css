@@ -12,24 +12,50 @@
     --header-color: #e30613;
     --text-color: #ffffff;
     --secondary-color: #ffffff;
+    --card-color: gray;
 }
 
 .card-noticias {
-    background-color: var(--header-color);
-    width: 40px;
-    height: 40px;
+    background-color: var(--card-color);
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    border-radius: 1rem;
+    
 }
-.menu-block:hover {
-    transform: scale(1.03);   
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+
+.card-noticias img {
+    width: 90%;
+    height: 40%;
+    margin-top: 1rem;
+    border-radius: 1rem;
 }
-.menu-block h2 {
-    color: #9A1915;
-    font-size: 1.5em; 
-    text-align: center;
-    background-color: rgb(236, 226, 226);
+.total-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
 }
-.menu-block p {
-    font-size: 1.3em; 
-    line-height: 1.5; 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.card-noticias p {
+    word-break: break-all;
+    word-spacing: 0.1em;
+    text-align-last: left;
+    width: 80%;
+    margin-top: 10px;
 }
