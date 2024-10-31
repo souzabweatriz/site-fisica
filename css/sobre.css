@@ -16,7 +16,6 @@
     --secondary-color: #ffffff;
 }
 
-
 .text-home {
     width: 500px;
     display: flex;
@@ -39,8 +38,8 @@
 }
 
 .image-home-text img {
-    width: 550px;
-    border-radius: 15px;
+    width: 500px;
+    border-radius: 15px;    
 }
 
 .conteudo-home {
@@ -62,3 +61,98 @@
     height: 500px;
 }
 
+<<<<<<< HEAD
+.titulos-participantes h1{
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid #a60000;
+    width: fit-content;
+    margin-left: 18rem;
+}
+
+
+.aluno {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.foto-aluno {
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.info-integrante {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.aluno-esq .info-integrante {
+    text-align: left;
+}
+
+.aluno-esq {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 15rem;
+    align-items: center;
+}
+
+.aluno-dir .info-integrante {
+    text-align: right;
+}
+
+.aluno-dir {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    gap: 15rem;
+    align-items: center;
+}
+
+.title-info {
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #a60000;
+    border-radius: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+
+.info {
+    padding-top: 5%;
+    font-size: 18px;
+}
+
+.todos-participantes {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media (max-width: 768px) {
+    .aluno {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-integrante {
+        text-align: center !important;
+    }
+
+    .foto-aluno {
+        margin-bottom: 25px;
+    }
+}
+=======
+>>>>>>> 9ea3dcc55b30cfcefd3789f38204e5d37064e878
