@@ -85,26 +85,22 @@
     border-radius: 14px;
 }
 
-.titulo-participantes {
-    display: flex;
-    margin-top: 100px;
-    font-weight: 1000;
-    font-family: "Montserrat", sans-serif;
-    border-bottom: 3px solid #a60000;
+.titulos-conteudos {
+    margin-right: 800px;
 }
 
-.titulos-conteudos {
+.align-content {
     display: flex;
-    gap: 160px;
-    margin-left: 438px;
-    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
 }
 
 .foto-carreira {
     display: flex;
     justify-content: center;
-    margin: auto;
-    gap: 5rem;
+    gap: 5%;
     width: 100%;
 }
 
