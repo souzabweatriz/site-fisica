@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -60,6 +61,7 @@
     height: 500px;
 }
 
+<<<<<<< HEAD
 .titulos-participantes h1{
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
@@ -149,6 +151,8 @@
     }
 
     .foto-aluno {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 }
+=======
+>>>>>>> 9ea3dcc55b30cfcefd3789f38204e5d37064e878

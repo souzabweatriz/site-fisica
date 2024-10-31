@@ -20,14 +20,16 @@
     width: 20rem;
     height: 25rem;
     display: flex;
+    
     flex-direction: column;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     align-items: center;
     border-radius: 1rem;
+    
 }
 
 .card-noticias img {
-    width: 80%;
+    width: 90%;
     height: 40%;
     margin-top: 1rem;
     border-radius: 1rem;
@@ -51,6 +53,9 @@
 }
 
 .card-noticias p {
+    word-break: break-all;
+    word-spacing: 0.1em;
+    text-align-last: left;
     width: 80%;
-    margin-top: 2%;
+    margin-top: 10px;
 }
