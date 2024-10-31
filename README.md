@@ -11,6 +11,7 @@ O site contém materiais e informações sobre tópicos essenciais de física, q
 Para acessar o site, clique aqui https://site-fisica.vercel.app/index.html
 
 ##🎯 Objetivo
+
 O objetivo do nosso projeto visa auxiliar estudantes do Ensino Médio e pré-vestibulandos, fornecendo uma base sólida em física, com explicações, exemplos, simulados e vídeo-aulas 
 
 ##🚀 Tecnologias Utilizadas
