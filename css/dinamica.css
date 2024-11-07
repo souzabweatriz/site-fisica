@@ -1,11 +1,11 @@
 .conteudo{
 width: 20rem;
 text-align: center;
-padding: 10rem;
 flex-direction: column;
 width: 100%;
 display: flex;
 gap: 20px;
+padding: 5rem;
 }
 
 h2{
@@ -39,6 +39,6 @@ text-align-last: left;
 }
 
 .formulas-dinamica img{
-    width: 10rem;
+    width: 11rem;
     height: auto;
 }
