@@ -1,6 +1,7 @@
 .conteudo{
 width: 20rem;
 text-align: center;
+padding: 10rem;
 flex-direction: column;
 width: 100%;
 display: flex;
@@ -40,5 +41,6 @@ text-align-last: left;
 
 .formulas-dinamica img{
     width: 11rem;
+    width: 10rem;
     height: auto;
 }
