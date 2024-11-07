@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
 .text-header {
     color: #ffffff;
     display: flex;
@@ -16,3 +23,54 @@
     width: 100%;
 }
 
+.titulo-conteudos {
+    display: flex;
+    gap: 160px;
+    margin-left: 480px;
+    margin-bottom: 40px;
+}
+
+.titulo-materia {
+    display: flex;
+    margin-top: 10vh;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid #a60000;
+    margin-left: 200px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+
+.imagem1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.imagem2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    gap: 10%;
+    text-align: center;
+}
+
+.img-1{
+    width: 92vh;
+    height: 25%;
+}
+
+.img-2 {
+    width: 35.7%;
+    height: 25%;
+}
+
+.imagem2 p{
+    width: 20%;
+}
