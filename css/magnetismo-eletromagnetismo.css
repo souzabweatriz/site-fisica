@@ -1,0 +1,18 @@
+.text-header {
+    color: #ffffff;
+    display: flex;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: -350px;
+    transform: translate(100%, 100%);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.escritas-header {
+    position: relative;
+    width: 100%;
+}
+
