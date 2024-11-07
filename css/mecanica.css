@@ -17,14 +17,5 @@
 }
 
 
-.image-home .title{
-    position: absolute;
-    top: 45%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 3em;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;;
-}
+
+
