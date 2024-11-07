@@ -1,19 +1,16 @@
 .conteudo{
-width: 20rem;
+width: 40rem;
+padding: 5rem;
 text-align: center;
 flex-direction: column;
 width: 100%;
 display: flex;
 gap: 20px;
-padding: 5rem;
-}
-
-h2{
-    font-size: 2rem;
 }
 
 p{
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 
@@ -29,6 +26,12 @@ text-align: justify;
 hyphens: auto;
 word-spacing: 0.1em;
 text-align-last: left;
+}
+
+.image-section{
+display: flex;
+justify-content: center;
+margin-top: 10px;
 }
 
 .image-section img{
