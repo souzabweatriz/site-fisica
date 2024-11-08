@@ -13,6 +13,7 @@
     --header-color: #e30613;
     --text-color: #ffffff;
     --secondary-color: #ffffff;
+    --secondary-color-red: #a60000;
 }
 
 #container {
@@ -62,7 +63,7 @@ header {
 
 .nav-bar li a {
     font-family: 'Montserrat', sans-serif;
-    color: var(--text-color );
+    color: var(--text-color);
     transition: 0.3s ease-in-out;
     font-weight: bold;
     font-size: 1.2rem;
@@ -70,7 +71,7 @@ header {
 
 .nav-bar li a:hover {
     font-family: 'Montserrat', sans-serif;
-    color: var(--hover-header);
+    color: var(--secondary-color-red);
     transition: 0.3s ease-in-out;
 }
 
@@ -79,7 +80,7 @@ header {
 }
 
 .menu-sobre {
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
     height: 70px;
     display: flex;
     align-items: center;
@@ -100,7 +101,7 @@ header {
 .menu-sobre ul li a {
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: #e0e0e0;
+    background-color: var(--secondary-color);
     color: #333;
     font-weight: bold;
     font-size: 16px;
@@ -109,8 +110,8 @@ header {
 
 .menu-sobre ul li a.active,
 .menu-sobre ul li a:hover {
-    background-color: #a60000;
-    color: white;
+    background-color: var(--secondary-color-red);
+    color: var(--secondary-color);
 }
 
 .sobre-banner {
@@ -127,33 +128,26 @@ header {
 }
 
 .image-home {
-    background-color:#000000;
+    background-color:var(--hover-header);
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 400px;
 }
 
-.line-p {
-    width: 22%;
-    height: 4px;
-    background-color: #a60000;
-    margin-top: 3px;
-    display: flex;
-    flex-direction: column;
-}
+
 
 .line-p2 {
     width: 33.4%;
     height: 4px;
-    background-color: #a60000;
+    background-color: var(--secondary-color-red);
     margin-top: 3px;
     display: flex;
     flex-direction: column;
 }
 
 .line-separar {
-    background-color: #a60000;
+    background-color: var(--secondary-color-red);
     height: 4px;
     width: 400px;
     display: center;
@@ -166,7 +160,7 @@ header {
     margin-top: 100px;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
-    border-bottom: 3px solid #a60000;
+    border-bottom: 3px solid var(--secondary-color-red);
 }
 
 .titulos-conteudos {
@@ -175,7 +169,7 @@ header {
 }
 
 footer {
-    background-color: #a12720; 
+    background-color: var(--secondary-color-red); 
     padding: 0; 
     margin: 0; 
     text-align: center;
@@ -185,7 +179,7 @@ footer {
 
 }
 .social-media-container {
-    background-color: #D71920; 
+    background-color: var(--header-color); 
     padding: 10px; 
     border-radius: 5px;
     margin-bottom: -5px; 
@@ -195,7 +189,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px; 
-    background-color: #D71920;
+    background-color: var(--header-color);
     padding: 10px;
     border-radius: 5px;
     width: calc(100% + 20px);
@@ -235,13 +229,13 @@ footer {
 .divider {
     width: 2px;
     height: 60px;
-    background-color: white;
+    background-color: var(--secondary-color);
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .menu-mobile ul{
-    background-color: #ff0000;
+    background-color: var(--header-color);
     backdrop-filter: blur(10px);
     position: absolute;
     top: 82px;
@@ -261,7 +255,7 @@ footer {
 }
 
 .menu-mobile ul li:hover{
-    background-color: #000000c4;
+    background-color: var(--secondary-color-red);
 }
 
 .menu-mobile ul li {
@@ -272,14 +266,14 @@ footer {
 }
 
 .menu-mobile ul li a{
-    color: #ffffff;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
 #btn-menu{
     width: 45px;
     height: 45px;
-    border: 0px solid #ff0000;
+    border: 0px solid var(--header-color);
     background: transparent;
     border-radius: 10px;
     position: absolute;
@@ -291,7 +285,7 @@ footer {
 .linha{
     width: 40px;
     height: 3px;
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
     display: block;
     margin: 10px auto;
     position: relative;
@@ -301,12 +295,12 @@ footer {
 
 #btn-menu.ativo .linha:nth-child(1){
     transform: translateY(12px) rotate(-45deg);
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
 }
 
 #btn-menu.ativo .linha:nth-child(3){
     transform: translateY(-15px) rotate(45deg);
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
 }
 
 #btn-menu.ativo .linha:nth-child(2){
@@ -315,5 +309,5 @@ footer {
 }
 
 #btn-menu.ativo{
-    border: 0px solid #000000;
+    border: 0px solid var(--header-color);
 }
