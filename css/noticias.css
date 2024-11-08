@@ -21,6 +21,7 @@
     height: 25rem;
     display: flex;
     flex-direction: column;
+    margin: 1.3em;
     /* justify-content: flex-start; */
     align-items: center;
     border-radius: 1rem;
@@ -76,4 +77,47 @@ a:hover{
     color: #e30613;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
     border-radius: 2em;
+}
+
+/* Tablet */
+
+@media (max-width: 768px){
+    .card-noticias{
+        width: 60%;
+        height: auto;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .total-cards{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+/* Celular */
+
+@media (max-width: 480px) {
+    .card-noticias{
+        width: 90%;
+        height: auto;
+        margin: 1em 0;
+    }
+
+    .card-noticias img{
+        height: auto;
+    }
+
+    .container, .total-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    a{
+        font-size: 0.8em;
+    }
 }
