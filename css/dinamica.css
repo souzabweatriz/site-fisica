@@ -1,12 +1,15 @@
 .conteudo{
 width: 20rem;
 text-align: center;
-padding: 10rem;
 flex-direction: column;
-width: 100%;
 display: flex;
 gap: 20px;
 padding: 5rem;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: justify;
 }
 
 
@@ -24,6 +27,14 @@ word-spacing: 0.1em;
 text-align-last: left;
 }
 
+
+.image-section{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+
 .image-section img{
     height: 30rem;
     width: 34rem;
@@ -33,6 +44,5 @@ text-align-last: left;
 
 .formulas-dinamica img{
     width: 11rem;
-    width: 10rem;
     height: auto;
 }
