@@ -12,7 +12,7 @@
     --header-color: #e30613;
     --text-color: #ffffff;
     --secondary-color: #ffffff;
-    --card-color: gray;
+    --card-color: rgb(187, 187, 187);
 }
 
 .card-noticias {
@@ -20,7 +20,6 @@
     width: 20rem;
     height: 25rem;
     display: flex;
-    
     flex-direction: column;
     /* justify-content: flex-start; */
     align-items: center;
@@ -58,4 +57,23 @@
     text-align-last: left;
     width: 80%;
     margin-top: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #e30613;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 2em;
 }
