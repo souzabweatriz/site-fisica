@@ -1,11 +1,10 @@
 .conteudo{
-width: 40rem;
-padding: 5rem;
+width: 20rem;
 text-align: center;
 flex-direction: column;
-width: 100%;
 display: flex;
 gap: 20px;
+padding: 5rem;
 }
 
 p{
@@ -28,11 +27,13 @@ word-spacing: 0.1em;
 text-align-last: left;
 }
 
+
 .image-section{
 display: flex;
 justify-content: center;
 margin-top: 10px;
 }
+
 
 .image-section img{
     height: 30rem;
