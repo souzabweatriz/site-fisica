@@ -1,15 +1,14 @@
 .conteudo{
-width: 40rem;
-padding: 5rem;
-text-align: center;
+width: 80%;
+text-align: justify;
 flex-direction: column;
-width: 100%;
 display: flex;
 gap: 20px;
+padding: 0 5em 5em;
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -22,17 +21,18 @@ p{
 }
 
 .section-text{
-text-align: justify;
+text-align: center;
 hyphens: auto;
 word-spacing: 0.1em;
 text-align-last: left;
 }
 
+
 .image-section{
 display: flex;
-justify-content: center;
 margin-top: 10px;
 }
+
 
 .image-section img{
     height: 30rem;
@@ -41,7 +41,25 @@ margin-top: 10px;
     box-shadow:  0px 4px 8px rgba( 0, 0, 0, 0.3);
 }
 
+.formulas-dinamica{
+    display: flex;
+    justify-content: center;
+}
+
 .formulas-dinamica img{
-    width: 11rem;
-    height: auto;
+    width: 5rem;
+    height: 5rem;
+}
+
+h2{
+    font-size: 1.3em;
+    font-family:'Montserrat', sans-serif;
+}
+
+.list p{
+    font-size: 1em;
+}
+
+.title{
+    text-align: center;
 }
