@@ -104,6 +104,7 @@ header {
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
+    box-shadow:  0 0 0.3em  rgb(43, 43, 43);
 }
 
 .menu-sobre ul li a.active,
