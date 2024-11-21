@@ -251,7 +251,7 @@ footer {
 
 .menu-mobile.abrir ul {
     visibility: visible;
-    height: calc(72vh - 7px);
+    height: calc(55% - 7px);
 }
 
 .menu-mobile ul li:hover{
