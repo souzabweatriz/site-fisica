@@ -105,7 +105,31 @@
 }
 
 .img-text {
-    width: 290px;
+    width: 23%;
+    height: 27rem;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+}
+.img-text img{
+    width: 90%;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+.img-text p{
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 7%;
+}
+.img-text:hover {
+    transform: scale(1.09);
+}
+
+.img-text span {
+    text-shadow: 0 0 5px var(--main-color);
 }
