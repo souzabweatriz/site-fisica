@@ -94,3 +94,35 @@ p{
     width:26.2%;
     margin-top: 7rem;
 }
+
+.conteudo-page3{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    padding: 0 10% 5em;
+}
+
+.conteudo-page3 h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-left: 8rem;
+    border-bottom: 3px solid #a60000;
+    width:25.6%;
+    margin-top: 7rem;
+}
+
+ul{
+    font-size: 1em;
+    line-height: 2.5em;
+    margin-left: 9rem;
+}
+
+li.lista{
+    list-style: disc;
+}
+
