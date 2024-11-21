@@ -19,12 +19,58 @@
     border-bottom: 2px solid #a60000;
     margin-left: 10em;
     justify-content: center;
-}
-
-.titulo-quantica{
-    display: flex;
+    font-family: "Montserrat", sans-serif;
     margin-top: 100px;
     font-weight: 1000;
-    font-family: "Montserrat", sans-serif;
-    border-bottom: 3px solid #a60000;
 }
+
+.conteudo-page{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    padding: 0 10% 5em;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-left: 8rem;
+    border-bottom: 2px solid #a60000;
+    width:24.3%;
+}
+
+.text-section p{
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: 0.1em;
+    text-align-last: left;
+    margin-left: 8rem;
+}
+
+p{
+    margin-left: 8rem;
+    width: 85%;
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.img-center img{
+    height: 34rem;
+    width: 34rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.img-center img:hover {
+    transform: scale(1.09);
+}
+
