@@ -176,6 +176,7 @@ footer {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position: relative; 
+    margin-top: 40px;
 
 }
 .social-media-container {
@@ -251,7 +252,7 @@ footer {
 
 .menu-mobile.abrir ul {
     visibility: visible;
-    height: calc(72vh - 7px);
+    height: calc(55% - 7px);
 }
 
 .menu-mobile ul li:hover{
