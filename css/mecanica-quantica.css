@@ -126,3 +126,53 @@ li.lista{
     list-style: disc;
 }
 
+@media (max-width: 768px){
+    .conteudo-page{
+        padding: 0 5% 5em;
+    }
+
+    h2{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .text-section p{
+        margin-left: 0;
+    }
+
+    p{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .img-center{
+        margin-top: 10px;
+    }
+
+    .img-center img{
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .conteudo-page2{
+        padding: 0 5% 5em;
+    }
+
+    .conteudo-page2 h2{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .conteudo-page3{
+        padding: 0 5% 5em;
+    }
+
+    .conteudo-page3 h2{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    ul{
+        margin-left: 0;
+    }
+}
