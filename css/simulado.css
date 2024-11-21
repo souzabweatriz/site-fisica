@@ -187,3 +187,20 @@ input[type="submit"]:hover {
 .align {
     margin-left: 438px;
 }
+
+
+.container-simulados{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+    height: 50vh;
+}
+
+.bloco-simulado{
+    background-color: #e9e7e7;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:  0 0 0.3em  rgb(107, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
