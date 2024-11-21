@@ -18,7 +18,7 @@
 .card-noticias {
     background-color: var(--card-color);
     width: 20rem;
-    height: 25rem;
+    height: 28rem;
     display: flex;
     flex-direction: column;
     margin: 1.3em;
@@ -58,11 +58,14 @@
     text-align-last: left;
     text-align: justify;
     width: 80%;
+    height: 40%;
     margin-top: 10px;
     color: var(--hover-header);
     line-height: 1.1em
 }
-
+h1 {
+    font-size: 2em;
+}
 .card-noticias:hover {
     transform: scale(1.09);
 }
@@ -85,13 +88,12 @@ a{
 
 .card-link{
     width: 40%;
-    height: 4%;
+    height: 6%;
     background-color: var(--header-color);
-    margin-top: 20px;
+    margin-top: 6px;
     border-radius: 5%;
     text-align: center;
     color: var(--text-color);
-    margin-right: auto;
 }
 
 /* Tablet */
