@@ -80,13 +80,11 @@ header {
 }
 
 .menu-sobre {
-    background-color: var(--secondary-color);
-    height: 70px;
+    height: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Montserrat", sans-serif;
-    margin-top: 100px;
 }
 
 .menu-sobre ul {
@@ -101,7 +99,7 @@ header {
 .menu-sobre ul li a {
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: var(--secondary-color);
+    background-color: rgb(238, 238, 238);
     color: #333;
     font-weight: bold;
     font-size: 16px;
@@ -113,6 +111,10 @@ header {
     background-color: var(--secondary-color-red);
     color: var(--secondary-color);
 }
+.menu-sobre ul li:hover {
+    transform: scale(1.1);
+}
+
 
 .sobre-banner {
     display: block;
@@ -124,7 +126,7 @@ header {
 
 .image-home img {
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 .image-home {
@@ -132,7 +134,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 400px;
+    height: 39rem;
 }
 
 .line-p2 {
@@ -311,4 +313,85 @@ footer {
     border: 0px solid var(--header-color);
 }
 
+/* Tablet */
 
+@media (max-width: 768px){
+    .image-home {
+        height: 20rem;
+    }
+    .menu-sobre {
+        height: 10rem;
+        margin-top: 5rem;
+    }
+    .menu-sobre ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem
+    }
+    .menu-sobre ul li a{
+        height: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .menu-sobre ul li {
+        width: 100%;
+        display: flex;
+    }
+    nav {
+        width: 100%;
+    }
+    .line-separar {
+        display: none;
+    }
+    .nav-bar {
+        gap:1rem;
+    }
+    .line {
+        width: 4%;
+    }
+    #btn-menu{
+        right: 10px;
+    }
+
+}
+
+/* Celular */
+
+@media (max-width: 480px) {
+    .image-home {
+        height: 15rem;
+    }
+    .menu-sobre {
+        height: 10rem;
+    }
+    .menu-sobre ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-sobre ul li a{
+        height: 3rem;
+        width: 100%;
+        text-align: center;
+    }
+    .menu-sobre ul li {
+        width: 100%;
+        display: flex;
+    }
+    nav {
+        width: 100%;
+    }
+    .line-separar {
+        display: none;
+    }
+    .nav-bar {
+        gap:1rem;
+    }
+    .line {
+        width: 5%;
+    }
+    #btn-menu{
+        right: 10px;
+    }
+}
