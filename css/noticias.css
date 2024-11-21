@@ -92,7 +92,7 @@ a{
     height: 6%;
     background-color: var(--header-color);
     margin-top: 6px;
-    border-radius: 5%;
+    border-radius: 2em;
     text-align: center;
     color: var(--text-color);
 }

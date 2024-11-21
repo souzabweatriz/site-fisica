@@ -187,6 +187,11 @@ footer {
     margin-bottom: -5px; 
 }
 
+.social-media-container :hover {
+    transform: scale(1.09);
+    
+}
+
 .social-media {
     display: flex;
     justify-content: center;
