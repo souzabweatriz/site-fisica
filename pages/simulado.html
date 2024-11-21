@@ -66,240 +66,39 @@
             </ul>
         </nav>
     </section>
-
+    
     <div class="line-separar"></div>
-
-    <form id="quizForm" onsubmit="mostrarRespostas(); return false;">
-        <!-- Ondulatória -->
-        <fieldset>
-            <legend>Ondulatória</legend>
-            <div class="question">
-                <p>1. O que é uma onda longitudinal?</p>
-                <label><input type="radio" name="questao1" value="a"> a) Onda que se propaga perpendicularmente à direção da vibração.</label>
-                <label><input type="radio" name="questao1" value="b"> b) Onda que se propaga na mesma direção da vibração.</label>
-                <label><input type="radio" name="questao1" value="c"> c) Onda que não necessita de meio para se propagar.</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-
-            <div class="question">
-                <p>2. Qual a unidade de medida da frequência de uma onda?</p>
-                <label><input type="radio" name="questao2" value="a"> a) Joules</label>
-                <label><input type="radio" name="questao2" value="b"> b) Hertz</label>
-                <label><input type="radio" name="questao2" value="c"> c) Newtons</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-        </fieldset>
-
-        <!-- Termologia -->
-        <fieldset>
-            <legend>Termologia</legend>
-            <div class="question">
-                <p>3. Qual é o conceito de calor específico?</p>
-                <label><input type="radio" name="questao3" value="a"> a) Quantidade de calor necessária para alterar a temperatura de uma substância.</label>
-                <label><input type="radio" name="questao3" value="b"> b) Quantidade de calor necessária para fundir uma substância.</label>
-                <label><input type="radio" name="questao3" value="c"> c) Quantidade de calor necessária para ferver uma substância.</label>
-                <span class="resposta-certa">Resposta: a</span>
-            </div>
-
-            <div class="question">
-                <p>4. O que é a dilatação térmica?</p>
-                <label><input type="radio" name="questao4" value="a"> a) Aumento de temperatura em um corpo sem alteração de tamanho.</label>
-                <label><input type="radio" name="questao4" value="b"> b) Aumento de volume de um corpo com o aumento da temperatura.</label>
-                <label><input type="radio" name="questao4" value="c"> c) Contração de um corpo ao perder calor.</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-        </fieldset>
-
-        <!-- Óptica -->
-        <fieldset>
-            <legend>Óptica</legend>
-            <div class="question">
-                <p>5. Qual fenômeno óptico explica o arco-íris?</p>
-                <label><input type="radio" name="questao5" value="a"> a) Refração</label>
-                <label><input type="radio" name="questao5" value="b"> b) Reflexão</label>
-                <label><input type="radio" name="questao5" value="c"> c) Difração</label>
-                <span class="resposta-certa">Resposta: a</span>
-            </div>
-
-            <div class="question">
-                <p>6. O que é a dispersão da luz?</p>
-                <label><input type="radio" name="questao6" value="a"> a) Fenômeno em que a luz se divide em várias direções.</label>
-                <label><input type="radio" name="questao6" value="b"> b) Fenômeno em que a luz branca se separa em suas cores componentes.</label>
-                <label><input type="radio" name="questao6" value="c"> c) Fenômeno em que a luz reflete totalmente ao entrar em uma superfície.</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-        </fieldset>
-
-        <!-- Mecânica -->
-        <fieldset>
-            <legend>Mecânica</legend>
-            <div class="question">
-                <p>7. Qual a fórmula da segunda lei de Newton?</p>
-                <label><input type="radio" name="questao7" value="a"> a) F = m * v</label>
-                <label><input type="radio" name="questao7" value="b"> b) F = m * a</label>
-                <label><input type="radio" name="questao7" value="c"> c) F = m / a</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-
-            <div class="question">
-                <p>8. O que é velocidade escalar média?</p>
-                <label><input type="radio" name="questao8" value="a"> a) A razão entre o deslocamento e o intervalo de tempo.</label>
-                <label><input type="radio" name="questao8" value="b"> b) A razão entre a distância total percorrida e o intervalo de tempo.</label>
-                <label><input type="radio" name="questao8" value="c"> c) A aceleração de um objeto em movimento uniforme.</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-        </fieldset>
-
-        <!-- Eletricidade -->
-        <fieldset>
-            <legend>Eletricidade</legend>
-            <div class="question">
-                <p>9. O que é a corrente elétrica?</p>
-                <label><input type="radio" name="questao9" value="a"> a) Fluxo de elétrons em um condutor.</label>
-                <label><input type="radio" name="questao9" value="b"> b) Diferença de potencial entre dois pontos.</label>
-                <label><input type="radio" name="questao9" value="c"> c) Resistência ao movimento dos elétrons.</label>
-                <span class="resposta-certa">Resposta: a</span>
-            </div>
-
-            <div class="question">
-                <p>10. Qual é a unidade de medida da resistência elétrica?</p>
-                <label><input type="radio" name="questao10" value="a"> a) Volt</label>
-                <label><input type="radio" name="questao10" value="b"> b) Ohm</label>
-                <label><input type="radio" name="questao10" value="c"> c) Ampère</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-        </fieldset>
-
-        <!-- Eletromagnetismo -->
-        <fieldset>
-            <legend>Eletromagnetismo</legend>
-            <div class="question">
-                <p>11. O que é um campo magnético?</p>
-                <label><input type="radio" name="questao11" value="a"> a) Uma força de atração entre massas.</label>
-                <label><input type="radio" name="questao11" value="b"> b) Região ao redor de um ímã onde ocorre a força magnética.</label>
-                <label><input type="radio" name="questao11" value="c"> c) A resistência ao movimento de uma carga elétrica.</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-
-            <div class="question">
-                <p>12. O que é a lei de Faraday?</p>
-                <label><input type="radio" name="questao12" value="a"> a) Descreve a força resultante sobre uma carga em movimento.</label>
-                <label><input type="radio" name="questao12" value="b"> b) Estabelece a relação entre campo elétrico e força magnética.</label>
-                <label><input type="radio" name="questao12" value="c"> c) Descreve a indução de corrente em um circuito por uma variação de campo magnético.</label>
-                <span class="resposta-certa">Resposta: c</span>
-            </div>
-        </fieldset>
-
-        <!-- Física Moderna -->
-        <fieldset>
-            <legend>Física Moderna</legend>
-            <div class="question">
-                <p>13. O que é o efeito fotoelétrico?</p>
-                <label><input type="radio" name="questao13" value="a"> a) A emissão de elétrons por um material quando exposto à luz.</label>
-                <label><input type="radio" name="questao13" value="b"> b) A absorção de fótons por um elétron em órbita.</label>
-                <label><input type="radio" name="questao13" value="c"> c) A criação de luz por materiais em altas temperaturas.</label>
-                <span class="resposta-certa">Resposta: a</span>
-            </div>
-
-            <div class="question">
-                <p>14. Quem formulou a teoria da relatividade?</p>
-                <label><input type="radio" name="questao14" value="a"> a) Isaac Newton</label>
-                <label><input type="radio" name="questao14" value="b"> b) Albert Einstein</label>
-                <label><input type="radio" name="questao14" value="c"> c) Max Planck</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-        </fieldset>
-
-        <!-- Física Quântica -->
-        <fieldset>
-            <legend>Física Quântica</legend>
-            <div class="question">
-                <p>15. O que descreve a dualidade partícula-onda?</p>
-                <label><input type="radio" name="questao15" value="a"> a) A capacidade de uma partícula de mudar sua massa.</label>
-                <label><input type="radio" name="questao15" value="b"> b) O comportamento da luz tanto como partícula quanto como onda.</label>
-                <label><input type="radio" name="questao15" value="c"> c) A transformação de uma onda em partícula.</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-
-            <div class="question">
-                <p>16. Qual é o princípio da incerteza de Heisenberg?</p>
-                <label><input type="radio" name="questao16" value="a"> a) Não é possível medir simultaneamente a posição e o momento de uma partícula com precisão infinita.</label>
-                <label><input type="radio" name="questao16" value="b"> b) Toda partícula pode ser medida com precisão absoluta.</label>
-                <label><input type="radio" name="questao16" value="c"> c) As partículas só se movem em trajetórias determinadas.</label>
-                <span class="resposta-certa">Resposta: a</span>
-            </div>
-        </fieldset>
-
-        <!-- Física Nuclear -->
-        <fieldset>
-            <legend>Física Nuclear</legend>
-            <div class="question">
-                <p>17. O que é a fissão nuclear?</p>
-                <label><input type="radio" name="questao17" value="a"> a) A fusão de dois núcleos leves para formar um mais pesado.</label>
-                <label><input type="radio" name="questao17" value="b"> b) A divisão de um núcleo atômico em dois núcleos menores, liberando energia.</label>
-                <label><input type="radio" name="questao17" value="c"> c) A liberação de elétrons de um átomo instável.</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-
-            <div class="question">
-                <p>18. O que é radiação alfa?</p>
-                <label><input type="radio" name="questao18" value="a"> a) Um fluxo de elétrons.</label>
-                <label><input type="radio" name="questao18" value="b"> b) Um fluxo de núcleos de hélio.</label>
-                <label><input type="radio" name="questao18" value="c"> c) Um fluxo de ondas eletromagnéticas.</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-        </fieldset>
-
-        <!-- Relatividade -->
-        <fieldset>
-            <legend>Relatividade</legend>
-            <div class="question">
-                <p>19. O que a teoria da relatividade restrita afirma sobre a velocidade da luz?</p>
-                <label><input type="radio" name="questao19" value="a"> a) Ela é infinita em todos os referenciais.</label>
-                <label><input type="radio" name="questao19" value="b"> b) Ela é constante e independente do referencial.</label>
-                <label><input type="radio" name="questao19" value="c"> c) Ela pode variar conforme a velocidade do observador.</label>
-                <span class="resposta-certa">Resposta: b</span>
-            </div>
-
-            <div class="question">
-                <p>20. Qual é a fórmula mais famosa da relatividade?</p>
-                <label><input type="radio" name="questao20" value="a"> a) E = mc²</label>
-                <label><input type="radio" name="questao20" value="b"> b) F = m * a</label>
-                <label><input type="radio" name="questao20" value="c"> c) P = mv</label>
-                <span class="resposta-certa">Resposta: a</span>
-            </div>
-        </fieldset>
-
-        <input type="submit" value="Enviar Respostas">
-    </form>
-
-    <script>
-        function mostrarRespostas() {
-            document.getElementById('quizForm').classList.add('show-answer');
-        }
-    </script>
-    <footer>
-        <div class="social-media-container">
-            <div class="social-media">
-                <a href="#" class="social-icon"><img src="../img/facebook.png" alt="Facebook"></a>
-                <a href="#" class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
-                <a href="#" class="social-icon"><img src="../img/WhatsApp.png" alt="WhatsApp"></a>
-                <a href="#" class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
-                <a href="#" class="social-icon"><img src="../img/Linkedin.png" alt="LinkedIn"></a>
+    
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Simulados</h1>
             </div>
         </div>
-        
-        <div class="addresses">
-            <div class="address">
-                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
-                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
-            </div>
-            <div class="divider"></div>
-            <div class="address">
-                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
-                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
-            </div>
         </div>
-    </footer>
 
-</body>
+    <div class="container-simulados">
+        <div class="bloco-simulado"><h2>Ondulatória</h2>
+            <img class="foto-simulado" src="../img/PROVA-SIMULADO.jpg" alt="">
+        </div>
+        <div class="bloco-simulado"><h2>Termologia</h2>
+            <img class="foto-simulado" src="../img/simulado-termologia.jpg" alt=""></div>
+        <div class="bloco-simulado"><h2>Óptica</h2>
+            <img class="foto-simulado" src="../img/simulado-optica.png" alt="">
+        </div>
+        <div class="bloco-simulado"><h2>Mecânica</h2>
+            <img class="foto-simulado" src="../img/mecanica-simulado.jpg" alt=""></div>
+        <div class="bloco-simulado"><h2>Cinemática</h2>
+            <img class="foto-simulado" src="../img/cinematica-simulado.webp" alt=""></div>
+        <div class="bloco-simulado"><h2>Dinâmica</h2><img class="foto-simulado" src="../img/dinamica-simulado.jpg" alt=""></div>
+        <div class="bloco-simulado"><h2>Trabalho, potência e energia</h2><img class="foto-simulado" src="../img/trabalho-simulao.jpg" alt=""></div>
+        <div class="bloco-simulado"><h2>Magnetismo e eletromagnetismo</h2><img class="foto-simulado" src="../img/cinematica-simulado.webp" alt=""></div>
+        <div class="bloco-simulado"><h2>Eletricidade</h2><img class="foto-simulado" src="../img/eletricidade-simulado.png" alt=""></div>
+        <div class="bloco-simulado"><h2>Eletrodinâmica</h2><img class="foto-simulado" src="../img/eletrodinamica-simulado.jpg" alt=""></div>
+        <div class="bloco-simulado"><h2>Física Moderna</h2>
+            <img class="foto-simulado" src="../img/moderna-simulado.webp" alt="">
+        </div>
+        <div class="bloco-simulado"><h2>Mecânica Quantica</h2><img class="foto-simulado" src="../img/quantica-simulado.jpg" alt=""></div>
+        <div class="bloco-simulado"><h2>Física Nuclear</h2><img class="foto-simulado" src="../img/nuclear-simulado.jpg" alt=""></div>
+        <div class="bloco-simulado"><h2>Relatividade</h2><img class="foto-simulado" src="../img/relatividade-simulado.jpg" alt=""></div>
+</div>
