@@ -135,8 +135,6 @@ header {
     height: 400px;
 }
 
-
-
 .line-p2 {
     width: 33.4%;
     height: 4px;
@@ -312,4 +310,5 @@ footer {
 #btn-menu.ativo{
     border: 0px solid var(--header-color);
 }
+
 

@@ -134,3 +134,38 @@
     text-shadow: 0 0 5px var(--main-color);
 }
 
+/* Tablet */
+
+@media (max-width: 768px){
+    .img-text{
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .align-content {
+        display: flex;
+        align-items: stretch;
+    }
+    .foto-carreira{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 480px) {
+    .foto-carreira{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .align-content {
+        display: flex;
+        align-items: stretch;
+    }
+    a{
+        font-size: 0.8em;
+    }
+}
