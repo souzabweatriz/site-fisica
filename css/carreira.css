@@ -85,31 +85,87 @@
     border-radius: 14px;
 }
 
-.titulo-participantes {
-    display: flex;
-    margin-top: 100px;
-    font-weight: 1000;
-    font-family: "Montserrat", sans-serif;
-    border-bottom: 3px solid #a60000;
+.titulos-conteudos {
+    margin-right: 800px;
 }
 
-.titulos-conteudos {
+.align-content {
     display: flex;
-    gap: 160px;
-    margin-left: 438px;
-    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
 }
 
 .foto-carreira {
     display: flex;
     justify-content: center;
-    margin: auto;
-    gap: 5rem;
+    gap: 5%;
     width: 100%;
 }
 
 .img-text {
-    width: 290px;
+    width: 23%;
+    height: 27rem;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+}
+.img-text img{
+    width: 90%;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+.img-text p{
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 7%;
+}
+.img-text:hover {
+    transform: scale(1.09);
+}
+
+.img-text span {
+    text-shadow: 0 0 5px var(--main-color);
+}
+
+/* Tablet */
+
+@media (max-width: 768px){
+    .img-text{
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .align-content {
+        display: flex;
+        align-items: stretch;
+    }
+    .foto-carreira{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 480px) {
+    .foto-carreira{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .align-content {
+        display: flex;
+        align-items: stretch;
+    }
+    a{
+        font-size: 0.8em;
+    }
 }

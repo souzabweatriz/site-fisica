@@ -12,22 +12,24 @@
     --header-color: #e30613;
     --text-color: #ffffff;
     --secondary-color: #ffffff;
-    --card-color: gray;
+    --card-color: rgb(238, 238, 238)  ;
 }
 
 .card-noticias {
     background-color: var(--card-color);
     width: 20rem;
-    height: 25rem;
+    height: 28rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    margin: 1.3em;
     align-items: center;
     border-radius: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01);
 }
 
 .card-noticias img {
-    width: 80%;
+    width: 90%;
     height: 40%;
     margin-top: 1rem;
     border-radius: 1rem;
@@ -51,6 +53,88 @@
 }
 
 .card-noticias p {
+    word-break: normal;
+    word-spacing: 0.1em;
+    text-align-last: left;
+    text-align: justify;
     width: 80%;
-    margin-top: 2%;
+    height: 40%;
+    margin-top: 10px;
+    color: var(--hover-header);
+    line-height: 1.1em
+}
+h1 {
+    font-size: 2em;
+}
+.card-noticias:hover {
+    transform: scale(1.09);
+}
+
+.card-noticias span {
+    text-shadow: 0 0 5px var(--main-color);
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--hover-header);
+    font-weight: bold;
+    font-size: 18px;
+    font-size: 0.9em;
+}
+
+.card-link{
+    width: 40%;
+    height: 6%;
+    background-color: var(--header-color);
+    margin-top: 6px;
+    border-radius: 5%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+/* Tablet */
+
+@media (max-width: 768px){
+    .card-noticias{
+        width: 60%;
+        height: auto;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .total-cards{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+/* Celular */
+
+@media (max-width: 480px) {
+    .card-noticias{
+        width: 90%;
+        height: auto;
+        margin: 1em 0;
+    }
+
+    .card-noticias img{
+        height: auto;
+    }
+
+    .container, .total-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    a{
+        font-size: 0.8em;
+    }
 }

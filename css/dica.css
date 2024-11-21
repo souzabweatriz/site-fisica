@@ -1,114 +1,9 @@
-#container {
-    width: 100%;
-}
-
-.menu-sobre {
-    background-color: #ffffff;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 100px;
-}
-
-.menu-sobre ul {
-    display: flex;
-    gap: 30px;
-}
-
-.menu-sobre ul li {
-    list-style: none;
-}
-
-.menu-sobre ul li a {
-    padding: 10px 20px;
-    border-radius: 25px;
-    background-color: #e0e0e0;
-    color: #333;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.menu-sobre ul li a.active,
-.menu-sobre ul li a:hover {
-    background-color: #a60000;
-    color: white;
-}
-
-.sobre-banner {
-    display: block;
-    margin-top: 40px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.image-home img {
-    width: 100%;
-    height: 500px;
-}
-
-.image-home {
-    background-color:#000000;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-}
-
-.line-p {
-    width: 22%;
-    height: 4px;
-    background-color: #a60000;
-    margin-top: 3px;
-    display: flex;
-    flex-direction: column;
-}
-
-.line-p2 {
-    width: 33.4%;
-    height: 4px;
-    background-color: #a60000;
-    margin-top: 3px;
-    display: flex;
-    flex-direction: column;
-}
-
-.line-separar {
-    background-color: #a60000;
-    height: 4px;
-    width: 400px;
-    display: center;
-    margin: auto;
-    border-radius: 14px;
-}
-
-.titulo-participantes {
-    display: flex;
-    margin-top: 100px;
-    font-weight: 1000;
-    font-family: "Montserrat", sans-serif;
-    border-bottom: 3px solid #a60000;
-}
-
-.titulos-conteudos {
-    display: flex;
-    gap: 160px;
-    margin-bottom: 40px;
-}
 
 
 .resumo-grafico {
     margin-left: 13px;
 }
 
-.resumo-grafico p {
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-=======
 .resumo-grafico p {
     font-size: 17px;
     font-weight: bold;
@@ -142,5 +37,5 @@
 }
 
 .align {
-    margin-left: 438px;
+    margin-left: 18%;
 }
