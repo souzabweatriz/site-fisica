@@ -16,71 +16,201 @@
     --secondary-color-red: #a60000;
 }
 
-.titulo-eletricidade{
+.titulo-mag-ele{
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    border-bottom: 2px solid #a60000;
-    margin-left: 10em;
-    justify-content: center;
-}
-
-.titulo-eletricidade{
-    display: flex;
+    border-bottom: 3px solid #a60000;
+    margin-left: 10em;  
+    font-family: "Montserrat", sans-serif;
     margin-top: 100px;
     font-weight: 1000;
-    font-family: "Montserrat", sans-serif;
-    border-bottom: 3px solid #a60000;
 }
 
-.conteudo{
-flex-direction: column;
-width: 100%;
-display: flex;
-gap: 20px;
-text-align: justify;
-font-family:'Montserrat', sans-serif;
-padding: 0 10% 5em;
-}
-
-.titulo-participantes{
+.conteudo-page{
+    flex-direction: column;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    border-bottom: 3px solid #a60000;
-    margin-left: 10em;
-    justify-content: center;
-}
-
-.section-text p{
-text-align: justify;
-hyphens: auto;
-word-spacing: 0.1em;
-text-align-last: left;
-}
-
-.image-section{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.image-section img{
-    height: 30rem;
-    width: 34rem;
-    border-radius: 20px;
-    box-shadow:  0px 4px 8px rgba( 0, 0, 0, 0.3);
+    gap: 20px;
+    text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    padding: 0 10% 5em;
 }
 
 h2{
-    font-size: 1.3em;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-left: 8rem;
+    border-bottom: 3px solid #a60000;
+    width:24.27%;
+}
+
+.text-section p{
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: 0.1em;
+    text-align-last: left;
+    margin-left: 8rem;
+}
+
+p{
+    margin-left: 8rem;
+    width: 85%;
+}
+
+.image-centro{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-centro img{
+    height: 34rem;
+    width: 34rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-centro img:hover{
+    transform: scale(1.09);
+}
+
+.conteudo-page2{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: justify;
     font-family:'Montserrat', sans-serif;
+    padding: 0 10% 5em;
 }
 
-.list p{
-    font-size: 1em;
+.conteudo-page2 h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-left: 8rem;
+    border-bottom: 3px solid #a60000;
+    width:24.27%;
 }
 
-.title{
-    text-align: center;
+.conteudo-page3{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    padding: 0 10% 5em;
+}
+
+.conteudo-page3 h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-left: 8rem;
+    border-bottom: 3px solid #a60000;
+    width:24.27%;
+}
+
+.conteudo-page4{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    padding: 0 10% 5em;
+}
+
+.conteudo-page4 h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-left: 8rem;
+    border-bottom: 3px solid #a60000;
+    width:24.27%;
+}
+
+@media (max-width: 1200px) {
+    .conteudo-page3 h2, .conteudo-page4 h2 {
+        margin-left: 6rem;
+        width: 30%;
+    }
+
+    .conteudo-page4 {
+        padding: 0 8% 5em;
+    }
+
+    .titulo-mag-ele {
+        margin-left: 6rem;
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .conteudo-page3 h2, .conteudo-page4 h2 {
+        margin-left: 4rem;
+        width: 40%;
+    }
+
+    .conteudo-page4 {
+        padding: 0 6% 5em;
+    }
+
+    .titulo-mag-ele {
+        margin-left: 4rem;
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo-page3 h2, .conteudo-page4 h2 {
+        margin-left: 2rem;
+        width: 50%;
+    }
+
+    .conteudo-page4 {
+        padding: 0 4% 5em;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .titulo-mag-ele {
+        margin-left: 2rem;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .conteudo-page3 h2, .conteudo-page4 h2 {
+        margin-left: 1rem;
+        width: 70%;
+        font-size: 1.2rem;
+    }
+
+    .conteudo-page4 {
+        padding: 0 2% 5em;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .titulo-mag-ele {
+        margin-left: 1rem;
+        width: 90%;
+        font-size: 1.2rem;
+    }
 }
