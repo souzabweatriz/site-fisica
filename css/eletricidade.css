@@ -155,3 +155,48 @@ ul{
 .conteudo-page4 p{
     margin-top: 1rem;
 }
+
+@media (max-width: 1200px) {
+    .conteudo-page, .conteudo-page2, .conteudo-page3, .conteudo-page4 {
+        padding: 0 8% 5em;
+    }
+
+    .conteudo-page h2, .conteudo-page2 h2, .conteudo-page3 h2, .conteudo-page4 h2 {
+        margin-left: 6rem;
+        width: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    .conteudo-page, .conteudo-page2, .conteudo-page3, .conteudo-page4 {
+        padding: 0 6% 5em;
+    }
+
+    .conteudo-page h2, .conteudo-page2 h2, .conteudo-page3 h2, .conteudo-page4 h2 {
+        margin-left: 4rem;
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo-page, .conteudo-page2, .conteudo-page3, .conteudo-page4 {
+        padding: 0 4% 5em;
+    }
+
+    .conteudo-page h2, .conteudo-page2 h2, .conteudo-page3 h2, .conteudo-page4 h2 {
+        margin-left: 2rem;
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .conteudo-page, .conteudo-page2, .conteudo-page3, .conteudo-page4 {
+        padding: 0 2% 5em;
+    }
+
+    .conteudo-page h2, .conteudo-page2 h2, .conteudo-page3 h2, .conteudo-page4 h2 {
+        margin-left: 1rem;
+        width: 70%;
+        font-size: 1.2rem;
+    }
+}
