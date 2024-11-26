@@ -55,11 +55,6 @@ h2{
     margin-left: 8rem;
 }
 
-p{
-    margin-left: 8rem;
-    width: 85%;
-}
-
 .image-centro{
     display: flex;
     justify-content: center;
@@ -138,6 +133,12 @@ p{
     margin-left: 8rem;
     border-bottom: 3px solid #a60000;
     width:30%;
+}
+
+.text-section{
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
 }
 
 @media (max-width: 1200px) {
