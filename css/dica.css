@@ -27,7 +27,7 @@
     display: flex;
     gap: 30px;
     margin-bottom: 60px;
-    width: 800px;
+    width: 100%;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
 }
@@ -38,4 +38,41 @@
 
 .align {
     margin-left: 18%;
+}
+.dica-txt p {
+    width: 50%;
+}
+
+/* Tablet */
+
+@media (max-width: 768px){
+
+}
+
+/* Celular */
+
+@media (max-width: 480px) {
+    .grafico img {
+    width: 300px;
+    }
+    .align {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .dicas-img-txt {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .dicas-img-txt p {
+        width: 30%;
+    }
+    .dica-txt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .dica-txt p {
+        width: 100%;
+    }
 }

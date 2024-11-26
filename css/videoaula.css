@@ -93,3 +93,54 @@
     padding: 10px;
     border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+    .foto-carreira {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .foto-carreira2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 8.5rem;
+        margin-top: 7rem;
+    }
+
+    .titulo-participantes{
+        display: flex;
+        font-weight: 1000;
+        font-family: "Montserrat", sans-serif;
+        position: absolute;
+        top: 37rem;
+        transform: translate(100%, 100%);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .text-header {
+        color: #ffffff;
+        display: flex;
+        font-weight: 1000;
+        font-family: "Montserrat", sans-serif;
+        position: absolute;
+        top: -350px;
+        transform: translate(100%, 100%);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .image-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 8.5rem;
+        margin-top: 7rem;
+    }
+}
