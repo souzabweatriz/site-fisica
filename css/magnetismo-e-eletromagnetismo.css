@@ -44,7 +44,7 @@ h2{
     margin-top: 20px;
     margin-left: 8rem;
     border-bottom: 3px solid #a60000;
-    width:24.27%;
+    width:20%;
 }
 
 .text-section p{
@@ -85,6 +85,7 @@ p{
     text-align: justify;
     font-family:'Montserrat', sans-serif;
     padding: 0 10% 5em;
+    margin-top: 5em;
 }
 
 .conteudo-page2 h2{
@@ -94,7 +95,7 @@ p{
     margin-top: 20px;
     margin-left: 8rem;
     border-bottom: 3px solid #a60000;
-    width:24.27%;
+    width:25.5%;
 }
 
 .conteudo-page3{
@@ -105,6 +106,7 @@ p{
     text-align: justify;
     font-family:'Montserrat', sans-serif;
     padding: 0 10% 5em;
+    margin-top: 5em;
 }
 
 .conteudo-page3 h2{
@@ -125,6 +127,7 @@ p{
     text-align: justify;
     font-family:'Montserrat', sans-serif;
     padding: 0 10% 5em;
+    margin-top: 5em;
 }
 
 .conteudo-page4 h2{
@@ -134,7 +137,7 @@ p{
     margin-top: 20px;
     margin-left: 8rem;
     border-bottom: 3px solid #a60000;
-    width:24.27%;
+    width:30%;
 }
 
 @media (max-width: 1200px) {
