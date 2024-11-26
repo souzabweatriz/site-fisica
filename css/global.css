@@ -338,6 +338,7 @@ footer {
     .menu-sobre ul li a{
         height: 2.5rem;
         text-align: center;
+        width: 100%;
     }
     .menu-sobre ul li {
         width: 100%;
