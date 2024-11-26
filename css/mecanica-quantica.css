@@ -44,19 +44,6 @@ h2{
     width:24.27%;
 }
 
-.text-section p{
-    text-align: justify;
-    hyphens: auto;
-    word-spacing: 0.1em;
-    text-align-last: left;
-    margin-left: 8rem;
-}
-
-p{
-    margin-left: 8rem;
-    width: 85%;
-}
-
 .img-center{
     display: flex;
     justify-content: center;
@@ -89,7 +76,6 @@ p{
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
     margin-top: 20px;
-    margin-left: 8rem;
     border-bottom: 3px solid #a60000;
     width:26.2%;
     margin-top: 7rem;
@@ -109,8 +95,6 @@ p{
     font-size: 1.5rem;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
-    margin-top: 20px;
-    margin-left: 8rem;
     border-bottom: 3px solid #a60000;
     width:25.6%;
     margin-top: 7rem;
