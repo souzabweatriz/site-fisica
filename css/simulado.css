@@ -98,7 +98,7 @@ input[type="radio"] {
 
 input[type="submit"] {
     padding: 10px;
-    background-color: #28a745;
+    background-color: #a60000;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -110,12 +110,12 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #218838;
+    background-color: #a60000;
 }
 
 
 .resposta-certa {
-    color: green;
+    color: #a60000;
     font-weight: bold;
     display: none; 
 }
