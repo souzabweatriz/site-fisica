@@ -44,6 +44,12 @@ h2{
     width:24.27%;
 }
 
+.text-section{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-left: 8rem;
+}
+
 .img-center{
     display: flex;
     justify-content: center;
