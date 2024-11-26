@@ -13,6 +13,7 @@
     --hover-header: #000000;
     --header-color: #e30613;
     --text-color: #ffffff;
+    --detalhes: #681413;
     --secondary-color: #ffffff;
 }
 
@@ -85,18 +86,27 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    gap: 15px;
+    gap: 10px;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 10%;
 }
 
 .nome-aluno {
-    border-bottom: 5px solid var(--header-color);
+    border-bottom: 5px solid var(--detalhes);
 }
 
 .foto-participante img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid var(--header-color);
+    border: 5px solid var(--detalhes);
 }
+.foto-participante :hover {
+    transform: scale(1.09);
+    
+}
+
+.foto-participante span {
+    text-shadow: 0 0 5px var(--main-color);
+}
+

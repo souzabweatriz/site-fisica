@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <script src="../global.js"></script>
+    <title>Simulado de Ondulátoria</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul> 
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+            <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias"> 
+                    <ul>
+                        <li><a href="portugues.html">Português</a> </li>
+                        <li><a href="matematica.html">Matemática</a></li>
+                        <li><a href="historia.html">História</a></li>
+                        <li><a href="geografia.html">Geografia</a></li>
+                        <li><a href="biologia.html">Biologia</a></li>
+                        <li class="fisica"><a href="fisica.html" class="fisica-link">Física</a></li>
+                        <li><a href="quimica.html">Química</a></li>
+                        <li><a href="artes.html">Artes</a></li>
+                        <li><a href="filosofia.html">Filosofia</a></li>
+                        <li><a href="sociologia.html">Sociologia</a></li>
+                        <li><a href="edFisica.html">Ed. Física</a></li>
+                        <li><a href="ingles.html">Inglês</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simuladoFt.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <div class="line-separar"></div>
+    
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Ondulatória</h1>
+            </div>
+        </div>
+        </div>
+        <form id="quizForm" onsubmit="mostrarRespostas(); return false;">
+    <fieldset>
+        <legend>Ondulatória</legend>
+        <div class="question">
+            <p>1. O que é uma onda longitudinal?</p>
+            <label><input type="radio" name="questao1" value="a"> a) Onda que se propaga perpendicularmente à direção da vibração.</label>
+                <label><input type="radio" name="questao1" value="b"> b) Onda que se propaga na mesma direção da vibração.</label>
+                <label><input type="radio" name="questao1" value="c"> c) Onda que não necessita de meio para se propagar.</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>2. Qual a unidade de medida da frequência de uma onda?</p>
+                <label><input type="radio" name="questao2" value="a"> a) Joules</label>
+                <label><input type="radio" name="questao2" value="b"> b) Hertz</label>
+                <label><input type="radio" name="questao2" value="c"> c) Newtons</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>3. (Enem 2017) A epilação a laser (popularmente conhecida como depilação a laser) consiste na aplicação de uma fonte de luz para aquecer e causar uma lesão localizada e controlada nos folículos capilares. Para evitar que outros tecidos sejam danificados, selecionam-se comprimentos de onda que são absorvidos pela melanina presente nos pelos, mas que não afetam a oxi-hemoglobina do sangue e a água dos tecidos da região em que o tratamento será aplicado. A figura mostra como é a absorção de diferentes comprimentos de onda pela melanina, oxi-hemoglobina e água.</p>
+                <img src="/img/enem-comprimento-de-onda.png" alt="">
+                <p>Qual é o comprimento de onda, em nm, ideal para a epilação a laser?</p>
+                <label><input type="radio" name="questao2" value="a"> a) 400</label>
+                <label><input type="radio" name="questao2" value="b"> b) 700</label>
+                <label><input type="radio" name="questao2" value="c"> c) 1100</label>
+                <label><input type="radio" name="questao2" value="d"> d) 900</label>
+                <label><input type="radio" name="questao2" value="d"> e) 500</label>
+                <span class="resposta-certa">Resposta: B
+                    <p>Devemos procurar um comprimento de onda com a menor absorção da oxi-hemoglobina possível e que tenha absorção pela melanina, que ocorre para um comprimento de onda de 700 nm.</p>
+                    <img src="/img/resolucao-enem-ondulatoria.png" alt="">
+                </span>
+            </div>
+            <div class="question">
+                <p>4. Sobre as ondas, assinale V para verdadeiro e F para falso nas afirmações a seguir:
+
+                    <p>- Ondas longitudinais são aquelas em que a vibração ocorre perpendicularmente à direção de propagação da onda.</p>
+                    
+                    <p>- Ondas sonoras não podem se propagar no vácuo, pois requerem um meio material para sua propagação.</p>
+                    
+                    <p>- O comprimento de onda é a distância entre dois pontos consecutivos da onda que estão em fase</p>
+                <label><input type="radio" name="questao2" value="a"> a) V, F, V</label>
+                <label><input type="radio" name="questao2" value="b"> b) F, V, V</label>
+                <label><input type="radio" name="questao2" value="c"> c) F, F, V</label>
+                <label><input type="radio" name="questao2" value="d"> d) F, V, F</label>
+                <label><input type="radio" name="questao2" value="d"> e) F, F, F</label>
+                <span class="resposta-certa">Resposta: B
+                    <p>Explicação: Ondas longitudinais são aquelas em que a vibração ocorre paralelamente à direção de propagação da onda. O correto é que nas ondas transversais a vibração ocorre perpendicularmente à direção de propagação da onda.</p>
+                    <img src="/img/resolucao-enem-ondulatoria.png" alt="">
+                </span>
+                <div class="question">
+                    <p>5. (Enem PPL 2016) A corrida dos 100 m rasos é uma das principais provas do atletismo e qualifica o homem mais rápido do mundo. Um corredor de elite foi capaz de percorrer essa distância em 10 s, com 41 passadas. Ele iniciou a corrida com o pé direito.</p>
+                    <p>O período de oscilação do pé direito desse corredor foi mais próximo de:</p>
+                    <label><input type="radio" name="questao2" value="a"> a) 1/10 s.</label>
+                    <label><input type="radio" name="questao2" value="b"> b) 1/4 s.</label>
+                    <label><input type="radio" name="questao2" value="c"> c) 1/2 s.</label>
+                    <label><input type="radio" name="questao2" value="d"> d) 2 s.</label>
+                    <label><input type="radio" name="questao2" value="e"> c) 4 s</label>
+                    <span class="resposta-certa">Resposta: C
+                        <p>A primeira passada foi com o pé direito, então foram 21 passadas com o pé direito e 20 passadas com o pé esquerdo</p>
+                        <img src="/img/resposta-pe.png" alt="">
+                        <p>Dividindo o numerador e o denominador por 10:</p>
+                        <img src="/img/continuacao-pe.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <input type="submit" value="Enviar Respostas">
+        </form>
+        <script>
+            function mostrarRespostas() {
+                document.getElementById('quizForm').classList.add('show-answer');
+            }
+        </script>    
+    </fieldset>
+</body>
+</html>

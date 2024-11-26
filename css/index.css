@@ -15,45 +15,6 @@
     --secondary-color: #ffffff;
 }
 
-#container {
-    width: 100%;
-}
-
-.menu-sobre {
-    background-color: #ffffff;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 100px;
-}
-
-.menu-sobre ul {
-    display: flex;
-    gap: 30px;
-}
-
-.menu-sobre ul li {
-    list-style: none;
-}
-
-.menu-sobre ul li a {
-    padding: 10px 20px;
-    border-radius: 25px;
-    background-color: #e0e0e0;
-    color: #333;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.menu-sobre ul li a.active,
-.menu-sobre ul li a:hover {
-    background-color: #a60000;
-    color: white;
-}
-
 .sobre-banner {
     display: block;
     margin-top: 40px;
@@ -79,7 +40,6 @@
 }
 
 .line-p {
-    width: 22%;
     height: 4px;
     background-color: #a60000;
     margin-top: 3px;
@@ -88,7 +48,6 @@
 }
 
 .line-p2 {
-    width: 33.4%;
     height: 4px;
     background-color: #a60000;
     margin-top: 3px;
@@ -101,21 +60,21 @@
     height: 4px;
     width: 400px;
     display: center;
-    margin: auto;
     border-radius: 14px;
 }
 
-.text-home {
-    width: 20%;
+.titulo-conteudo {
+    text-align: center;
     display: flex;
 }
 
-.titulo-conteudo {
-    width: 20%;
+.titulo-conteudo2 {
+    text-align: center;
 }
 
-.titulo-conteudo2 {
-    width: 30.6%;
+.titulo-participantes, .titulo-participantes2{
+justify-content: center;
+text-align: center;
 }
 
 .titulo-participantes {
@@ -127,8 +86,7 @@
 }
 
 .titulo-participantes2 {
-    display: flex;
-    margin-top: 100px;
+    display: flex; 
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
     border-bottom: 3px solid #a60000;
@@ -141,21 +99,61 @@
 
 .conteudo-home {
     display: flex;
-    justify-content: center;
-    gap: 29%;
     margin-top: 80px;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
+    flex-direction: column;
 }
 
 .titulos-conteudos {
     display: flex;
-    justify-content: space-around;
-    gap: 160px;
-    margin-left: 20px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.conteudo-geral {
+    display: flex;
+    flex-direction: row;
 }
 
 .image-home img {
     width: 100%;
     height: 500px;
+}
+
+.text-home {
+    width: 50%;
+    display: flex;
+    word-spacing: 0.1em;
+    hyphens: auto;
+    text-align: justify;
+}
+
+@media (max-width: 768px){
+    .line-p, .line-p2{
+        width: 50%;
+    }
+
+    .titulo-participantes,
+    .titulo-participantes2{
+        font-size: 2em;
+    }
+
+    .conteudo-home{
+        gap: 10px;
+        text-align: center;
+    }
+
+    .image-home img{
+        height: auto;
+    }
+
+    .conteudo-home{
+        text-align: justify;
+    }
+
+    .text-home{
+        word-spacing: 0.1em;
+        hyphens: auto;
+        text-align: justify;
+        width: 90%;
+    }
 }
