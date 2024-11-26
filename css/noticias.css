@@ -25,7 +25,7 @@
     align-items: center;
     border-radius: 1rem;
     border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01);
+    box-shadow:  0 0 0.8em  rgb(41, 41, 41);
 }
 
 .card-noticias img {
@@ -68,6 +68,7 @@ h1 {
 }
 .card-noticias:hover {
     transform: scale(1.09);
+    box-shadow:  0 0 0.8em  rgb(112, 0, 0);
 }
 
 .card-noticias span {
@@ -91,7 +92,7 @@ a{
     height: 6%;
     background-color: var(--header-color);
     margin-top: 6px;
-    border-radius: 5%;
+    border-radius: 2em;
     text-align: center;
     color: var(--text-color);
 }
