@@ -16,70 +16,109 @@
     --secondary-color-red: #a60000;
 }
 
-.titulo-fisica-moderna{
+.titulo-moderna{
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    border-bottom: 2px solid #a60000;
+    border-bottom: 3px solid #a60000;
     margin-left: 10em;
     justify-content: center;
 }
 
-.titulo-fisica-moderna{
+.titulo-moderna{
     display: flex;
-    margin-top: 10rem;
+    margin-top: 100px;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
     border-bottom: 3px solid #a60000;
 }
 
-
-.conteudo{
-flex-direction: column;
-width: 100%;
-display: flex;
-gap: 20px;
-text-align: justify;
-font-family:'Montserrat', sans-serif;
-padding: 0 10% 5em;
-}
-
-.titulo-participantes{
+.conteudo-page{
+    flex-direction: column;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    font-size: 2rem;
+    gap: 20px;
+    text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    padding: 0 10% 5em;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-left: 8rem;
     border-bottom: 3px solid #a60000;
-    margin-left: 10em;
-    justify-content: center;
+    width:20.18%;
 }
 
-.section-text p{
-text-align: justify;
-hyphens: auto;
-word-spacing: 0.1em;
-text-align-last: left;
+.text-section{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-left: 8rem;
 }
 
-.image-section{
+.imagem-centro{
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-.image-section img{
-    width: 50%;
-    height: 50%;
+.imagem-centro img{
+    width: 40%;
+    border-radius: 15px;
 }
 
-h2{
-    font-size: 1.3em;
+.imagem-centro img:hover {
+    transform: scale(1.09);
+}
+
+.conteudo-page2{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: justify;
     font-family:'Montserrat', sans-serif;
+    padding: 0 10% 5em;
 }
 
-.list p{
+.conteudo-page2 h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    border-bottom: 3px solid #a60000;
+    width:20.18%;
+    margin-top: 7rem;
+    width: 38%;
+}
+
+.conteudo-page3{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    padding: 0 10% 5em;
+}
+
+.conteudo-page3 h2{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid #a60000;
+    width: 38%;
+}
+
+ul{
     font-size: 1em;
+    line-height: 2.5em;
+    margin-left: 9rem;
 }
 
-.title{
-    text-align: center;
+li.lista{
+    list-style: disc;
 }
