@@ -112,6 +112,7 @@ text-align: center;
 .conteudo-geral {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .image-home img {
