@@ -73,8 +73,44 @@ body {
     margin-top: 30px;
 }
 
+.text-content h2 {
+    margin-top: 4%;
+    font-weight: 1000;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid var(--secondary-color-red);
+}
 
+.senai-img {
+    width: 30%;
+    margin-right: 4%;
+}
 
+.senai-img img {
+    width: 100%;
+}
+
+.institution-info {
+    display: flex;
+    margin-top: 4%;
+}
+
+.institution-info p {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 20%;
+    margin-top: 3rem;
+    background-color: var(--secondary-color-red);
+    padding: 20px;
+    color: var(--text-color);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 20%;
+    word-spacing: 0.1em;
+    word-break: normal;
+    hyphens: auto;
+    transition: 0.5s;
+}
 
 @media (max-width: 768px){
     .line-p, .line-p2{
