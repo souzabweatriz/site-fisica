@@ -44,6 +44,12 @@ h2{
     width:24.27%;
 }
 
+.text-section{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-left: 8rem;
+}
+
 .img-center{
     display: flex;
     justify-content: center;
@@ -100,11 +106,7 @@ h2{
     margin-top: 7rem;
 }
 
-ul{
-    font-size: 1em;
-    line-height: 2.5em;
-    margin-left: 9rem;
-}
+c
 
 li.lista{
     list-style: disc;
