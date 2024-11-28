@@ -322,6 +322,19 @@ footer {
 /* Tablet */
 
 @media (max-width: 768px){
+    header {
+        display: flex;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .nav-bar li a {
+        display: flex;
+        font-size: 100%;
+    }
+
     .image-home {
         height: 20rem;
     }
