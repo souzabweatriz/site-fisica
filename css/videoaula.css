@@ -79,3 +79,55 @@ a{
     font-weight: 1000;
     
 }
+
+@media (max-width: 320px) {
+    .images{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-video { 
+        width: 90%; 
+        margin: 1rem 0; 
+    }
+
+    .titulo-video { 
+        font-size: 1.5rem; 
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .images { 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .card-video { 
+        width: 80%; 
+        margin: 1rem 0; 
+    }
+
+    .titulo-video { 
+        font-size: 1.8rem; 
+        margin-left: 0; 
+    }
+}
+
+@media (max-width: 1400px) {
+    .images { 
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+
+    .card-video { 
+        width: 40%; 
+        margin: 1rem 0; 
+    }
+
+    .card-video { 
+        width: 40%; 
+        margin: 1rem 0; 
+    }
+}
