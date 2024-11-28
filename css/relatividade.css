@@ -60,6 +60,13 @@
     font-family: "Montserrat", sans-serif;
     text-align: justify;
     color: white;
-    word-spacing: -0.31em;
     word-break: normal;
+}
+
+.postulado {
+    margin: 5% 0;
+}
+
+.consequencia {
+    margin-top: 5%;
 }
