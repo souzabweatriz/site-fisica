@@ -187,7 +187,7 @@ footer {
     margin-bottom: -5px; 
 }
 
-.social-media-container :hover {
+.social-media-container a:hover {
     transform: scale(1.09);
     
 }
@@ -322,6 +322,19 @@ footer {
 /* Tablet */
 
 @media (max-width: 768px){
+    header {
+        display: flex;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .nav-bar li a {
+        display: flex;
+        font-size: 100%;
+    }
+
     .image-home {
         height: 20rem;
     }
