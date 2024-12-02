@@ -209,3 +209,16 @@ h2{
     border-radius: 20px;
     width: 17em;
 }
+
+.question{
+    display: flex;
+}
+
+.img-questao{
+    width: 35em;
+    height: 25em;
+}
+
+p{
+    color: #000000;
+}
