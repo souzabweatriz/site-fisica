@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/mecanica-simulado.css">
+    <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
+    <script src="../global.js"></script>
+    <title>Simulado Mecânica</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="/pages/cadastro.html">Cadastre-se</a></li>
+                </ul>
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+                <div class="menu-mobile" id="menu-materias">
+                    <nav class="menu-materias" id="menu-materias">
+                        <ul>
+                            <li><a href="https://lp-projeto.vercel.app/">Português</a> </li>
+                            <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                            <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                            <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                            <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                            <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                            <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                            <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="line-separar"></div>
+
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Mecânica</h1>
+                <form id="quizForm" onsubmit="mostrarRespostas(); return false;">
+                    <fieldset>
+                        <div class="question">
+                            <p>1. (Unicamp 2020) As agências espaciais NASA (norte-americana) e ESA (europeia)
+                                desenvolvem um projeto para desviar a trajetória de um asteroide através da colisão com
+                                uma sonda especialmente enviada para esse fim. A previsão é que a sonda DART (do inglês,
+                                “Teste de Redirecionamento de Asteroides Duplos”) será lançada com a finalidade de se
+                                chocar, em 2022, com Didymoon, um pequeno asteroide que orbita um asteroide maior
+                                chamado Didymos. A massa da sonda DART será de m????? = 300 ?? , e ela deverá ter a
+                                velocidade ?????? = 6 ??/? imediatamente antes de atingir Didymoon. Assim, a energia
+                                cinética da sonda antes da colisão será igual a:</p>
+                            <label><input type="radio" name="questao1" value="a"> a) 1,8 ⋅ 103 ?</label>
+                            <label><input type="radio" name="questao1" value="b"> b) 5,4 ⋅ 103 ?</label>
+                            <label><input type="radio" name="questao1" value="c"> d) 1,8 ⋅ 106 ?</label>
+                            <label><input type="radio" name="questao1" value="c"> c) 5,4 ⋅ 109 J</label>
+                            <span class="resposta-certa">Resposta: D
+                                <img src="/img/formula-mecanica1.png" alt="">
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>2. (Fatec) Na teoria da relatividade restrita de Einstein, dois conceitos estudados
+                                referem-se ao fato de que, ao considerar um objeto propagando-se à velocidade da luz,
+                                podemos verificar</p>
+                            <label><input type="radio" name="questao1" value="a"> a) A dilatação do tempo e a dilatação
+                                do comprimento.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) A contração do tempo e a dilatação
+                                do comprimento.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) A dilatação do tempo e a contração
+                                do comprimento.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) A dilatação do tempo sem contração
+                                do comprimento.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) A contração do tempo sem contração
+                                do comprimento.</label>
+                            <span class="resposta-certa">Resposta: C
+                                <p>Na teoria da relatividade restrita de Einstein, quando um objeto está propagando-se à
+                                    velocidade da luz, ele observa a dilatação do tempo e a contração do comprimento.
+                                </p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>3. Qual das forças abaixo é responsável pela deformação e elongação dos corpos?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) Força elétrica.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Força normal.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) Força elástica.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) Força peso.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) Força de atrito</label>
+                            <span class="resposta-certa">Resposta: D
+                                <p>A força responsável pela deformação e elongação dos corpos é a força elástica,
+                                    calculada através da lei de Hooke.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>4. A partir dos seus conhecimentos a respeito das leis de Kepler, qual das alternativas
+                                não corresponde a uma delas?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) Lei das órbitas elípticas.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Lei das áreas.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) Lei dos períodos</label>
+                            <label><input type="radio" name="questao1" value="c"> d) lei da ação e reação.</label>
+                            <span class="resposta-certa">Resposta: D
+                                <p>A lei de ação e reação não é uma das leis de Kepler, mas uma das leis de Newton. Ela
+                                    diz respeito ao princípio de ação e reação das forças sobre os corpos.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>5. Qual a força que ocorre sobre um pistão maior quando se faz uma força de 500 N sobre
+                                um pistão menor de uma prensa hidráulica, sabendo que seus raios são de 0,2 metros e 0,4
+                                metros?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) 200 N</label>
+                            <label><input type="radio" name="questao1" value="b"> b) 400 N</label>
+                            <label><input type="radio" name="questao1" value="c"> c) 600 N</label>
+                            <label><input type="radio" name="questao1" value="c"> d) 800 N</label>
+                            <label><input type="radio" name="questao1" value="c"> e) 1000 N</label>
+                            <span class="resposta-certa">Resposta: A
+                                <p>Primeiramente, calcularemos a área do pistão maior, depois a do menor e por fim,
+                                    substituiremos os dados na fórmula do teorema de Pascal </p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>6. Qual a velocidade média, em metros por segundo, de um automóvel que se desloca 151,2
+                                km em 1 hora?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) 12 m/s</label>
+                            <label><input type="radio" name="questao1" value="b"> b) 18 m/s</label>
+                            <label><input type="radio" name="questao1" value="c"> c) 20 m/s</label>
+                            <label><input type="radio" name="questao1" value="c"> d) 31 m/s</label>
+                            <label><input type="radio" name="questao1" value="c"> e) 41 m/s</label>
+                            <span class="resposta-certa">Resposta: E
+                                <p>Primeiramente, calcularemos a velocidade média através da sua fórmula e Como é pedida
+                                    a velocidade média em m/s, basta dividirmos km/h por 3,6</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>7. (Enem 2012) Os carrinhos de brinquedos podem ser de vários tipos. Dentre eles, há os
+                                movidos a corda, em que uma mola em seu interior é comprimida quando a criança puxa o
+                                carrinho para trás. Ao ser solto, o carrinho entra em movimento enquanto a mola volta à
+                                sua forma inicial.</p>
+                            <p>O processo de conversão de energia que ocorre no carrinho descrito também é verificado
+                                em:</p>
+                            <label><input type="radio" name="questao1" value="a"> a) Um dínamo.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Um freio de automóvel.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) Um motor a combustão.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) Uma usina hidroelétrica.</label>
+                            <label><input type="radio" name="questao1" value="c"> e) Uma atiradeira
+                                (estilingue).</label>
+                            <span class="resposta-certa">Resposta: E
+                                <p>Em uma atiradeira, temos a conversão de energia potencial elástica em energia
+                                    cinética.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>8. (UEL) Um corpo de massa m é submetido a uma força resultante de módulo F, adquirindo
+                                aceleração a. A força resultante que se deve aplicar a um corpo de massa m/2 para que
+                                ele adquira aceleração 4a deve ter módulo:</p>
+
+                            <label><input type="radio" name="questao1" value="a"> a) F/2.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) F.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) 2F.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) 4F.</label>
+                            <label><input type="radio" name="questao1" value="c"> e) 8F.</label>
+                            <span class="resposta-certa">Resposta: C
+                                <p>Primeiramente, calcularemos a força resultante antes, por meio da fórmula da segunda
+                                    lei de Newton, Depois calcularemos a força resultante nova, quando mudamos a massa e
+                                    a aceleração, por meio da fórmula da segunda lei de Newton, Por fim, comparamos a
+                                    força resultante antes e a força resultante nova</p>
+                            </span>
+                            <div class="question">
+                                <p>9. (CFT) Em 2005, Ano Mundial da Física, comemora-se o centenário da Teoria da
+                                    Relatividade de Albert Einstein. Entre outras consequências, essa teoria poria fim à
+                                    ideia do éter, meio material necessário, semelhantemente ao som, através do qual a
+                                    luz se propagava. O jargão popular “tudo é relativo” certamente não se deve a ele,
+                                    pois seus postulados estão fundamentados em algo absoluto: a velocidade da luz no
+                                    vácuo – 300.000 km/s.</p>
+                                <p>Hoje se sabe que:</p>
+                                <li>I. O som propaga-se no vácuo.</li>
+                                <li>II. A luz propaga-se no vácuo</li>
+                                <li>III. A velocidade da luz no vácuo é a velocidade limite do universo.</li>
+                                <p>E (são) verdadeira(s):</p>
+                                <label><input type="radio" name="questao1" value="a"> a) Todas.</label>
+                                <label><input type="radio" name="questao1" value="b"> b) Nenhuma.</label>
+                                <label><input type="radio" name="questao1" value="c"> c) Somente II.</label>
+                                <label><input type="radio" name="questao1" value="c"> d) II e III.</label>
+                                <label><input type="radio" name="questao1" value="c"> e) Somente III.</label>
+                                <span class="resposta-certa">Resposta: D
+                                    <p>O som não se propaga no vácuo, já que se trata de uma onda material.</p>
+                                </span>
+                            </div>
+                            <input type="submit" value="Enviar Respostas">
+                </form>
+                <script>
+                    function mostrarRespostas() {
+                        document.getElementById('quizForm').classList.add('show-answer');
+                    }
+                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+                </fieldset>
+                <footer>
+                    <div class="social-media-container">
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL" class="social-icon"><img
+                                    src="../img/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+                                class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                            <a href="https://api.whatsapp.com/send?phone=551133220050" class="social-icon"><img
+                                    src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                            <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+                                class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                            <a href="https://www.linkedin.com/school/senai-de-valinhos/" class="social-icon"><img
+                                    src="../img/Linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="addresses">
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                            <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                            <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+                        </div>
+                    </div>
+                </footer>
+</body>
+</html>
