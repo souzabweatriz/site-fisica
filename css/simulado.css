@@ -154,25 +154,33 @@ input[type="submit"]:hover {
 
 
 .container-simulados{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .bloco-simulado{
-    background-color: #ffffff;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow:  0 0 0.8em  rgb(75, 72, 72);
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    width: 50%;
-    padding: 20px;
-    margin-left: 20%;
-    cursor: pointer;
+    background-color: var(--card-color);
+    width: 28rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1.3em;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+    box-shadow:  0 0 0.8em  rgb(41, 41, 41)
 }
 
+a{
+    text-decoration: none;
+    color: var(--hover-header);
+    font-weight: bold;
+    font-size: 18px;
+    font-size: 0.9em;
+    margin-top: 1em;
+}
 
 .bloco-simulado:hover {
     transform: scale(1.09);
@@ -186,7 +194,7 @@ input[type="submit"]:hover {
 h2{
     font-family: "Merriweather", serif;
     color: #000000;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 .foto-simulado{
@@ -196,7 +204,8 @@ h2{
     box-shadow:  0px 4px 8px rgba( 0, 0, 0, 0.3);
 }
 
-button{
+
+.link-simulado{
     background-color: #a60000;
     color: white;
     border: none;
@@ -225,5 +234,23 @@ button{
         height: 30rem;
         width: 30rem;
     }
+
+.imagem-simulado{
+    border-radius: 20px;
+    width: 17em;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+}
+
+.img-questao{
+    width: 35em;
+    height: 25em;
+}
+
+p{
+    color: #000000;
 
 }
