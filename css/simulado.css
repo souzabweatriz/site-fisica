@@ -143,12 +143,13 @@ input[type="submit"]:hover {
     font-family: 'Poppins', sans-serif;
 }
 
+
 .bold {
     font-weight: bold;
 }
 
 .align {
-    margin-left: 438px;
+    margin-left: 20%;
 }
 
 
@@ -198,6 +199,7 @@ h2{
 
 .foto-simulado{
     height: 10rem;
+    width: 100%;
     border-radius: 10px;
     box-shadow:  0px 4px 8px rgba( 0, 0, 0, 0.3);
 }
@@ -212,6 +214,26 @@ h2{
     cursor: pointer;
     font-size: 15px;
 }
+
+/* Tablet */
+
+@media (max-width: 768px){
+    .container-simulados{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        height: 50vh;
+    }
+    .align {
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .foto-simulado img{
+        height: 30rem;
+        width: 30rem;
+    }
 
 .imagem-simulado{
     border-radius: 20px;
@@ -230,4 +252,5 @@ h2{
 
 p{
     color: #000000;
+
 }
