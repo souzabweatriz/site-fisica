@@ -229,6 +229,9 @@ h2{
     font-size: 1.5em;
 }
 
+a{
+    margin-top: 0.2em;
+}
 
 .foto-simulado{
     height: 10rem;
