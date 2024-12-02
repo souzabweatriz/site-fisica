@@ -1,0 +1,196 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/termologia-simulado.css">
+    <script src = "../global.js"></script>
+    <title>Simulado de Termologia</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul> 
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+            <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias"> 
+                    <ul>
+                        <li><a href="https://lp-projeto.vercel.app/">Português</a>  </li>
+                        <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                        <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                        <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                        <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                        <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                        <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                        <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                        <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                        <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                        <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                        <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class = "line-separar"></div>
+
+    <div class = "align">
+        <div class = "titulos-conteudos">
+            <div class = "titulo-conteudo">
+                <h1 class = "titulo-participantes">Termologia</h1>
+            </div>
+        </div>
+    </div>
+
+    <form id = "quizForm" onsubmit="mostrarRespostas(); return false;">
+        <fieldset>
+            <legend>Termologia</legend>
+            <div class = "question">
+                <p>1.(UPE) A figura ilustra os diversos processos termodinâmicos a que um gás é submetido em uma máquina térmica. Os processos AB e DE são isocóricos, EA e CD são adiabáticos, e o processo BC é isobárico. Sabendo que a substância de trabalho dessa máquina é um gás ideal, determine a sua eficiência.
+                </p>
+                <img src="/img/diversos.jpg" alt="">
+                <label><input type="radio" name = "questao1" value = "a"> a) 10% </label>
+                <label><input type="radio" name = "questao1" value = "b"> b)25% </label>
+                <label><input type="radio" name = "questao1" value = "c"> c)35 </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) 50% </label>
+                <span class = "resposta-certa">Resposta: d</span>
+            </div>
+            <div class = "question">
+                <p>2. A queima de 1,000 g de gás de cozinha fornece 6000 cal. A massa de gás que deve ser queimada para elevar a temperatura de meio litro de água de 25,00 ºC até 100,0 ºC, e ainda produzir a evaporação de 100,0 ml de água, é:</p>
+                <label><input type="radio" name = "questao1" value = "a"> a) 15,24 g </label>
+                <label><input type="radio" name = "questao1" value = "b"> b) 15,23 g </label>
+                <label><input type="radio" name = "questao1" value = "c"> c) 15,25 g </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) 15,22 g </label>
+                <span class = "resposta-certa">Resposta: c</span>
+            </div>
+            <div class = "question">
+                <p>3. Em 2016, os termômetros da cidade de Goiânia indicaram 34,7 °C, maior temperatura registrada desde 1961. No ano de 1938, a cidade registrou 1,2 °C, a menor registrada na história da cidade. Determine a variação entre as temperaturas máxima e mínima, em °F, registradas em Goiânia.
+                </p>
+                <label><input type="radio" name = "questao1" value = "a"> a) 55,8 g </label>
+                <label><input type="radio" name = "questao1" value = "b"> b) 60,3 </label>
+                <label><input type="radio" name = "questao1" value = "c"> c) 75,0 </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) 30,5 </label>
+                <span class = "resposta-certa">Resposta: b</span>
+            </div>
+            <div class = "question">
+                <p>4. A dilatação de um corpo, ocorrida por causa do aumento de temperatura a que foi submetido, pode ser estudada analiticamente. Se esse corpo, de massa invariável e sempre no estado sólido, inicialmente com temperatura t0, for aquecido até atingir a temperatura 2t0, sofrerá uma dilatação volumétrica ΔV. Conseqüentemente, sua densidade:
+                </p>
+                <label><input type="radio" name = "questao1" value = "a"> a) passará a ser o dobro da inicial </label>
+                <label><input type="radio" name = "questao1" value = "b"> b) passará a ser a metade da inicial </label>
+                <label><input type="radio" name = "questao1" value = "c"> c) aumentará, mas certamente não dobrará </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) diminuirá, mas certamente não se reduzirá à metade </label>
+                <span class = "resposta-certa">Resposta: d</span>
+            </div>
+            <div class = "question">
+                <p>5. (FATEC) O gráfico apresenta o comportamento de um gás ideal em um processo cíclico que se inicia no ponto A. Com base no gráfico apresentado, podemos afirmar corretamente que
+                </p>
+                <img src="/img/grafico.jpg" alt="">
+                <label><input type="radio" name = "questao1" value = "a"> a) entre os pontos D e A ocorre transformação isocórica e o trabalho realizado pelo gás é negativo. </label>
+                <label><input type="radio" name = "questao1" value = "b"> b)entre os pontos B e C ocorre transformação isocórica e o trabalho realizado pelo gás é nulo. </label>
+                <label><input type="radio" name = "questao1" value = "c"> c) entre os pontos C e D ocorre transformação isobárica e o trabalho realizado pelo gás é nulo. </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) entre os pontos A e B ocorre transformação isocórica de compressão. </label>
+                <span class = "resposta-certa">Resposta: b</span>
+            </div>
+            <div class = "question">
+                <p>6.  O Brasil é reconhecidamente um país de contrastes. Entre eles, podemos apontar a variação de temperatura das capitais brasileiras. Palmas, por exemplo, atingiu, em 1º de julho de 1998, a temperatura de 13 ºC e, em 19 de setembro de 2013, a temperatura de 42 ºC (com sensação térmica de 50 ºC). Na escala Kelvin, a variação da temperatura na capital do Tocantins, entre os dois registros realizados, corresponde a:</p>
+                <label><input type="radio" name = "questao1" value = "a"> a) 13K </label>
+                <label><input type="radio" name = "questao1" value = "b"> b) 29K </label>
+                <label><input type="radio" name = "questao1" value = "c"> c) 42K </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) 50K </label>
+                <span class = "resposta-certa">Resposta: b</span>
+            </div>
+            <div class = "question">
+                <p>7. (UDESC) Um gás ideal monoatômico, com n mols e inicialmente na temperatura absoluta T, sofre uma expansão adiabática até que sua temperatura fique a um terço de sua temperatura inicial.
+
+                    Logo, o gás:</p>
+                <label><input type="radio" name = "questao1" value = "a"> a) absorveu uma quantidade de calor igual a nRT. </label>
+                <label><input type="radio" name = "questao1" value = "b"> b) se expandiu isobaricamente. </label>
+                <label><input type="radio" name = "questao1" value = "c"> c) realizou trabalho liberando uma quantidade de calor igual a nRT. </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) realizou trabalho e sua energia interna diminuiu de nRT. </label>
+                <span class = "resposta-certa">Resposta: d</span>
+            </div>
+            <div class = "question">
+                <p>8. Comparando as medidas de temperatura nas escalas Celsius e Fahrenheit observa-se que enquanto na primeira escala a temperatura de ebulição da água é de 100 ºC, na segunda escala a água passa para o estado gasoso em 212 ºF. Já a fusão da água ocorre em 0 ºC e a respectiva temperatura na outra escala é 32 ºF.</p>
+
+                <img src = "/img/escalas termometricas.jpg"
+
+                <p>Observe o gráfico e assinale a alternativa com a temperatura que pode ser marcada pelo mesmo número nas duas escalas.</p>
+                <label><input type="radio" name = "questao1" value = "a"> a) 30 </label>
+                <label><input type="radio" name = "questao1" value = "b"> b) 10 </label>
+                <label><input type="radio" name = "questao1" value = "c"> c) -20 </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) -40 </label>
+                <span class = "resposta-certa">Resposta: d</span>
+            </div>
+            <div class = "question">
+                <p>9.(SENAC-SP) A chegada do homem a lua aconteceu em 1969. A estrutura da lua é rochosa e praticamente não possui atmosfera, o que faz com que durante o dia a temperatura chegue a 105 °C e à noite caia para −155 °C. Essa variação térmica, medida na escala Fahrenheit de temperatura, vale</p>
+
+                <label><input type="radio" name = "questao1" value = "a"> a)468</label>
+                <label><input type="radio" name = "questao1" value = "b"> b) 90 </label>
+                <label><input type="radio" name = "questao1" value = "c"> c) 292 </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) 50 </label>
+                <span class = "resposta-certa">Resposta: a</span>
+            </div>
+            <div class = "question">
+                <p>10. (UERJ - 2013) Observe na tabela os valores das temperaturas dos pontos críticos de fusão e de ebulição, respectivamente, do gelo e da água, à pressão de 1 atm, nas escalas Celsius e Kelvin.</p>
+
+                <img src="/img/temperatura.jpg"
+
+                <p>Considere que, no intervalo de temperatura entre os pontos críticos do gelo e da água, o mercúrio em um termômetro apresenta uma dilatação linear.
+
+                    Nesse termômetro, o valor na escala Celsius correspondente à temperatura de 313 K é igual a:</p>
+                <label><input type="radio" name = "questao1" value = "a"> a) 20 </label>
+                <label><input type="radio" name = "questao1" value = "b"> b) 30 </label>
+                <label><input type="radio" name = "questao1" value = "c"> c) 40 </label>
+                <label><input type="radio" name = "questao1" value = "d"> d) 60 </label>
+                <span class = "resposta-certa">Resposta: c</span>
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar Respostas">
+    </form>
+    <script>
+        function mostrarRespostas() {
+            document.getElementById('quizForm').classList.add('show-answer');
+        }
+    </script>    
+    </form>
+    
+</body>
+</html>
+

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/optica-simulado.css">
+    <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
+    <script src="../global.js"></script>
+    <title>Simulado Óptica</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="/pages/cadastro.html">Cadastre-se</a></li>
+                </ul>
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+                <div class="menu-mobile" id="menu-materias">
+                    <nav class="menu-materias" id="menu-materias">
+                        <ul>
+                            <li><a href="https://lp-projeto.vercel.app/">Português</a> </li>
+                            <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                            <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                            <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                            <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                            <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                            <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                            <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="line-separar"></div>
+
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Óptica</h1>
+                <form id="quizForm" onsubmit="mostrarRespostas(); return false;">
+                    <fieldset>
+                        <div class="question">
+                            <p>1. (Enem 2019) Os olhos humanos normalmente têm três tipos de cones responsáveis pela
+                                percepção das cores: um tipo para tons vermelhos, um para tons azuis e outro para
+                                tons verdes. As diversas cores que enxergamos são o resultado da percepção das cores
+                                básicas, como indica a figura.</p>
+                            <img class="img-questao" src="/img/enem-optica.png" alt="">
+                            <p>A protanopia é um tipo de daltonismo em que há diminuição ou ausência de receptores
+                                da cor vermelha. Considere um teste com dois voluntários: uma pessoa com visão
+                                normal e outra com caso severo de protanopia. Nesse teste, eles devem escrever a cor
+                                dos cartões que lhes são mostrados. São utilizadas as cores indicadas na figura.</p>
+                            <p>Para qual cartão os dois voluntários identificarão a mesma cor?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) Vermelho.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Magenta.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) Amarelo.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) Branco.</label>
+                            <label><input type="radio" name="questao1" value="c"> e) Azul.</label>
+                            <span class="resposta-certa">Resposta: E
+                                <p>Devemos mostrar um cartão que não contenha o vermelho em sua composição. Qualquer
+                                    cartão que só reflita o verde ou o azul, ou que reflita o verde e o azul (ciano)
+                                    serão identificados pelos dois voluntários com a mesma cor.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>2. (Enem 2019) Quando se considera a extrema velocidade com que a luz se espalha por
+                                todos os lados e que, quando vêm de diferentes lugares, mesmo totalmente opostos,
+                                [os raios luminosos] se atravessam uns aos outros sem se atrapalharem, compreende-se
+                                que, quando vemos um objeto luminoso, isso não poderia ocorrer pelo transporte de
+                                uma matéria que venha do objeto até nós, como uma flecha ou bala atravessa o ar;
+                                pois certamente isso repugna bastante a essas duas propriedades da luz,
+                                principalmente a última.</p>
+                            <p>O texto contesta que concepção acerca do comportamento da luz?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) O entendimento de que a luz
+                                precisa de um meio de propagação, difundido pelos defensores da existência do
+                                éter.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) O modelo ondulatório para a
+                                luz, o qual considera a possibilidade de interferência entre feixes
+                                luminosos.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) O modelo corpuscular defendido
+                                por Newton, que descreve a luz como um feixe de partículas.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) A crença na velocidade infinita
+                                da luz, defendida pela maioria dos filósofos gregos.</label>
+                            <label><input type="radio" name="questao1" value="c"> e) A ideia defendida pelos gregos
+                                de que a luz era produzida pelos olhos.</label>
+                            <span class="resposta-certa">Resposta: C
+                                <p>Newton conjecturava sobre a luz como uma formação de partículas, ao contrário do
+                                    Princípio de Huygens, que considera a luz como uma onda.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>3. (Enem 2016) Algumas crianças, ao brincarem de esconde-esconde, tapam os olhos com
+                                as mãos, acreditando que, ao adotarem tal procedimento, não poderão ser vistas. Essa
+                                percepção da criança contraria o conhecimento científico porque, para serem vistos,
+                                os objetos</p>
+                            <label><input type="radio" name="questao1" value="a"> a) Refletem partículas de luz
+                                (fótons), que atingem os olhos.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Geram partículas de luz
+                                (fótons), convertidas pela fonte externa.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) São atingidos por partículas de
+                                luz (fótons), emitidas pelos olhos.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) Refletem partículas de luz
+                                (fótons), que se chocam com os fótons emitidos pelos olhos.</label>
+                            <label><input type="radio" name="questao1" value="c"> e) São atingidos pelas partículas
+                                de luz (fótons), emitidas pela fonte externa e pelos olhos.</label>
+                            <span class="resposta-certa">Resposta: A
+                                <p>Nosso corpo, sendo uma fonte de luz primária, reflete a luz emitida por outras
+                                    fontes luminosas, e só seremos vistos por alguém se as luzes refletidas pelos
+                                    nossos corpos atingirem os olhos de um observador.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>4. (PUC) Os faróis de 2 carros que se movimentam em uma estrada emitem feixes de luz.
+                                Em certo instante, os faróis se interceptam. Assinale a opção que descreve
+                                CORRETAMENTE o que acontece após o cruzamento dos feixes.</p>
+                            <label><input type="radio" name="questao1" value="a"> a) Os feixes diminuem de
+                                intensidade.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Um feixe se reflete no outro
+                                feixe.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) Os dois feixes se juntam
+                                formando um único feixe.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) Os feixes continuam sua
+                                propagação como se nada tivesse acontecido.</label>
+                            <span class="resposta-certa">Resposta: D
+                                <p>De acordo com o princípio da independência dos raios luminosos, os feixes
+                                    continuam sua propagação como se nada tivesse acontecido.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>5. (UFU) Em um ambiente totalmente escuro, é feito um experimento, que consiste em
+                                colocar nesse ambiente uma pessoa com visão normal, diante de uma folha em branco,
+                                de um gato preto e de um espelho plano. Qual desses três elementos a pessoa verá no
+                                ambiente?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) A folha em branco, pois
+                                trata-se do objeto mais claro presente no ambiente</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Nenhum deles, pois o ambiente
+                                está desprovido totalmente de luz.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) O espelho plano, pois possui
+                                uma superfície amplamente refletora.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) O gato preto, pois seus olhos
+                                brilham, mesmo que no escuro.</label>
+                            <span class="resposta-certa">Resposta: B
+                                <p>A pessoa não verá nenhum dos elementos no ambiente, já que a cor preta é capaz de
+                                    absorver todas as outras cores.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>6. Dentre as alternativas abaixo, quais são delas são princípios estudados na Óptica?
+                            </p>
+                            <li>I. Princípio da propagação retilínea dos raios luminosos</li>
+                            <li>II. Princípio da constância da velocidade da luz</li>
+                            <li>III. Princípio da independência dos raios luminosos</li>
+                            <li>IV. Princípio da reversibilidade dos raios de luminosos</li>
+                            <p>As alternativas corretas são:</p>
+                            <label><input type="radio" name="questao1" value="a"> a) I, II e III.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) II, III e IV.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) I, III e IV.</label>
+                            <label><input type="radio" name="questao1" value="d"> d) I, II e IV.</label>
+                            <label><input type="radio" name="questao1" value="e"> e) Nenhuma das
+                                alternativas.</label>
+                            <span class="resposta-certa">Resposta: C
+                                <p>Na Óptica estudamos o princípio da propagação retilínea dos raios luminosos, o
+                                    princípio da reversibilidade dos raios de luminosos, o princípio da
+                                    independência dos raios luminosos e o princípio de Fermat. Já na Relatividade,
+                                    estudamos o princípio da constância da velocidade da luz.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>7. Qual das alternativas abaixo não é um fenômeno óptico?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) Frequência.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Reflexão.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) Refração.</label>
+                            <label><input type="radio" name="questao1" value="d"> d) Dispersão.</label>
+                            <label><input type="radio" name="questao1" value="e"> e) Polarização.</label>
+                            <span class="resposta-certa">Resposta: A
+                                <p>A reflexão, refração, dispersão e polarização são fenômenos estudados na Óptica,
+                                    enquanto frequência é um elemento das ondas.</p>
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>9. Qual é a distância focal aproximada, sabendo que a distância do objeto ao foco é
+                                de 2 m e a distância da imagem ao foco é de 1 m?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) 0,53 m</label>
+                            <label><input type="radio" name="questao1" value="b"> b) 0,67 m</label>
+                            <label><input type="radio" name="questao1" value="c"> c) 0,74 m</label>
+                            <label><input type="radio" name="questao1" value="d"> d) 0,82 m</label>
+                            <label><input type="radio" name="questao1" value="e"> e) 0,91 m</label>
+                            <span class="resposta-certa">Resposta: E
+                                <p>Calcularemos a distância focal através da equação dos pontos conjugados:</p>
+                                <img src="/img/formula-optica.png" alt="">
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>10. Determine o aumento linear transversal, sabendo que o tamanho do objeto é de 50 m
+                                e o tamanho da imagem é de 150 m.</p>
+                            <label><input type="radio" name="questao1" value="a"> a) 1</label>
+                            <label><input type="radio" name="questao1" value="b"> b) 1,5</label>
+                            <label><input type="radio" name="questao1" value="c"> c) 2</label>
+                            <label><input type="radio" name="questao1" value="d"> d) 2,5</label>
+                            <label><input type="radio" name="questao1" value="e"> e) 3</label>
+                            <span class="resposta-certa">Resposta: B
+                                <p>Calcularemos o aumento linear transversal ou ampliação através da sua fórmula:
+                                </p>
+                                <img src="/img/formula-optica2.png" alt="">
+                            </span>
+                        </div>
+                        <input type="submit" value="Enviar Respostas">
+                </form>
+                <script>
+                    function mostrarRespostas() {
+                        document.getElementById('quizForm').classList.add('show-answer');
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+    </div>
+    </fieldset>
+    </form>
+    <footer>
+        <div class="social-media-container">
+            <div class="social-media">
+                <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL" class="social-icon"><img
+                        src="../img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+                    class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                <a href="https://api.whatsapp.com/send?phone=551133220050" class="social-icon"><img
+                        src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+                    class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                <a href="https://www.linkedin.com/school/senai-de-valinhos/" class="social-icon"><img
+                        src="../img/Linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="addresses">
+            <div class="address">
+                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+            </div>
+            <div class="divider"></div>
+            <div class="address">
+                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
