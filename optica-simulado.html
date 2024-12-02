@@ -84,7 +84,7 @@
                                     percepção das cores: um tipo para tons vermelhos, um para tons azuis e outro para
                                     tons verdes. As diversas cores que enxergamos são o resultado da percepção das cores
                                     básicas, como indica a figura.</p>
-                                <img src="img/enem-optica.png" alt="">
+                                <img class="img-questao" src="img/enem-optica.png" alt="">
                                 <p>A protanopia é um tipo de daltonismo em que há diminuição ou ausência de receptores
                                     da cor vermelha. Considere um teste com dois voluntários: uma pessoa com visão
                                     normal e outra com caso severo de protanopia. Nesse teste, eles devem escrever a cor
@@ -243,6 +243,13 @@
                                     <img src="/img/formula-optica2.png" alt="">
                                 </span>
                             </div>
+                            <input type="submit" value="Enviar Respostas">
+    </form>
+    <script>
+        function mostrarRespostas() {
+            document.getElementById('quizForm').classList.add('show-answer');
+        }
+    </script>
                         </fieldset>
                     </form>
                 </div>
