@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .sobre-banner {
     display: block;
     margin-top: 40px;
@@ -178,7 +181,6 @@ a{
     font-weight: bold;
     font-size: 18px;
     font-size: 0.9em;
-    margin-top: 1em;
 }
 
 .bloco-simulado:hover {
