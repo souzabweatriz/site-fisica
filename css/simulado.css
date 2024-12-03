@@ -195,7 +195,6 @@ input[type="submit"]:hover {
     height: 16rem;
     display: flex;
     flex-direction: column;
-    margin: 1.3em;
     align-items: center;
     border-radius: 1rem;
     border: 1px solid #ddd;
@@ -229,10 +228,6 @@ h2{
     font-size: 1.5em;
 }
 
-a{
-    margin-top: 0.2em;
-}
-
 .foto-simulado{
     height: 10rem;
     border-radius: 10px;
@@ -250,6 +245,7 @@ a{
     border-radius: 5px;
     cursor: pointer;
     font-size: 15px;
+    margin-top: 0.3em;
 }
 
 
@@ -270,7 +266,3 @@ a{
     height: 25em;
 }
 
-
-p{
-    color: #000000;
-}
