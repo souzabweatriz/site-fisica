@@ -1,177 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/mecanica.css">
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/mecanica.css">
     <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
-    <script src="../global.js"></script>
     <title>Mecânica</title>
 </head>
-
 <body>
-    <div id="container">
-        <header>
-            <div class="header">
-                <div class="image-header">
-                    <img src="/img/logo-sesi-senai.png" alt="">
-                </div>
+    <header>
+        <div class="header">
+            <div class="image-header">
+                <img src="/img/logo-sesi-senai.png" alt="">
+            </div>
 
-                <div class="line">
-                    <div class="traco"></div>
-                </div>
+            <div class="line">
+                <div class="traco"></div>
+            </div>
 
-                <ul class="nav-bar">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="/pages/sobre.html">Sobre</a></li>
-                    <li><a href="/pages/cadastre.html">Cadastre-se</a></li>
+            <ul class="nav-bar">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="/pages/sobre.html">Sobre</a></li>
+                <li><a href="/pages/cadastre.html">Cadastre-se</a></li>
+            </ul> 
+
+            <button onclick="animar(), animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+        <div class="menu-mobile" id="menu-materias">
+            <nav class="menu-materias" id="menu-materias"> 
+                <ul>
+                    <li><a href="https://lp-projeto.vercel.app/">Português</a>  </li>
+                    <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                    <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                    <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                    <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                    <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                    <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                    <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                    <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                    <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                    <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                    <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
                 </ul>
+        </div>
+    </header>
 
-                <button onclick="animar(), animarMenu()" id="btn-menu">
-                    <span class="linha"></span>
-                    <span class="linha"></span>
-                    <span class="linha"></span>
-                </button>
-                <div class="menu-mobile" id="menu-materias">
-                    <nav class="menu-materias" id="menu-materias">
-                        <ul>
-                        <li><a href="https://lp-projeto.vercel.app/">Português</a>  </li>
-                        <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
-                        <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
-                        <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
-                        <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
-                        <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
-                        <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
-                        <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
-                        <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
-                        <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
-                        <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
-                        <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
-                        </ul>
-                </div>
-        </header>
-    </div>
     <div class="image-home">
-        <img src="../img/mecanica-banner.png" alt="">
+        <img src="/img/mecanica-banner.png" alt="">
     </div>
+
     <section class="menu-sobre">
         <nav>
             <ul>
-                <li><a href="/pages/carreira.html">Carreiras</a></li>
-                <li><a href="/pages/dica.html">Dicas</a></li>
-                <li><a href="/pages/simulado.html">Simulados</a></li>
-                <li><a href="/pages/noticias.html">Notícias</a></li>
-                <li><a href="/pages/videoaula.html">Vídeo-aulas</a></li>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
             </ul>
         </nav>
     </section>
+
     <div class="line-separar"></div>
-    <section class="container">
-        <div class="titulos-conteudos">
 
-            <h1 class="titulo-participantes">Mecânica</h1>
+    <div class="content">
+        <div class="title-content">
+            <h1>MECÂNICA</h1>
         </div>
+
+        <div class="text-content">
+            <h2>O que é <span>Mecânica</span>?</h2>
+            <p>A Mecânica é a parte da Física que estuda principalmente as forças que agem sobre os corpos em movimento, em repouso, em equilíbrio e nos fluidos.</p>
         </div>
 
-        <section class="conteudo">
-            <div class="conteudo-page">
-                <p class="section-text">A Mecânica é uma das grandes áreas da Física. Ela estuda o movimento e o repouso dos
-                    corpos a partir da aplicação ou não de forças sobre eles e é subdividida em Mecânica Clássica, Mecânica
-                    Relativística e Mecânica Quântica. Através do seu estudo, é possível calcularmos a velocidade dos
-                    corpos, o alcance máximo em um lançamento, a aceleração da gravidade e muitas outras coisas.
-                </p>
+        <div class="img-content">
+            <img src="https://i1.wp.com/www.adelantosdigital.com/web/wp-content/uploads/2016/02/TEORIA-LUZ.jpg?fit=900%2C500&ssl=1" alt="">
+
+            <p>Óptica Geométrica: é a parte da Óptica que investiga o comportamento da luz, como feixes de luz retilíneos, e os fenômenos relacionados a ela.</p>
+
+            <p>Óptica Física: é a parte da Óptica que investiga o comportamento da luz, como onda eletromagnética, e os fenômenos relacionados a ela.</p>
+        </div>
+
+        <div class="text-content">
+            <h2><span>Principais princípios:</span></h2>
+
+            <p>Princípio da propagação retilínea dos raios luminosos: os feixes de luz propagam-se em linha retilínea nos meios homogêneos e transparentes.</p>
+
+            <p>Princípio da reversibilidade dos raios luminosos: os feixes de luz são reversíveis, podendo alterar o seu sentido de propagação e seguir o mesmo caminho de volta.</p>
+
+            <p>Princípio da independência dos raios luminosos: os feixes de luz são independentes uns dos outros, podendo um atravessar o outro, sem que suas trajetórias sejam afetadas.</p>
+
+            <p>Princípio de Fermat: os feixes de luz percorrem a trajetória que requer o menor tempo de propagação entre dois pontos.</p>
+
+            <div class="image-final">
+                <img src="https://static.preparaenem.com/2021/02/refracao.jpg" alt="">
             </div>
-            <div class="image-section">
-                <img src="../img/fisica-mecanica.jpg" alt="explicação">
+        </div>
+    </div>
+    
+    <footer>
+        <div class="social-media-container">
+            <div class="social-media">
+                <a href="https://www.facebook.com/senaisp.valinhos?_rdr" class="social-icon"><img src="../img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/senaivalinhos/" class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                <a href="https://api.whatsapp.com/send?phone=1938297800" class="social-icon"><img src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="https://www.youtube.com/channel/UCzqd0VpWU_w4BKwmSvFdieQ" class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                <a href="https://www.linkedin.com/school/senai-de-valinhos/posts/?feedView=all" class="social-icon"><img src="../img/Linkedin.png" alt="LinkedIn"></a>
             </div>
-            <p class="conteudo-page">
-                Historicamente, a Mecânica teve seu estudo iniciado com as leis de movimento de Sir Isaac Newton,
-                publicadas em seu livro Princípios Matemáticos da Filosofia Natural, contudo ela existe desde o
-                nascimento do Universo.
+        </div>
 
-                Diversos profissionais lidam diariamente com a Mecânica, como pilotos de avião, físicos,
-                meteorologistas, geólogos, engenheiros, arquitetos etc.
-
-                Ela explica diversos fenômenos que observamos em nosso cotidiano, como:
-
-                A queda dos corpos ocasionada pela gravidade.
-
-                A aceleração de um corpo pela aplicação de uma força.
-
-                Os acidentes automobilísticos, em que o carro sai da curvatura devido à perda do atrito ou à alta
-                velocidade.
-
-                Ao abrirmos a maçaneta ou brincarmos na gangorra, utilizamos o princípio de alavanca estudado na
-                Mecânica.
-
-                Órbitas dos planetas e satélites.
-
-                Máquinas simples, como roldanas, planos inclinados, talhas, balanças e outras.
-
-                O ato de andar, já que aplicamos uma força no chão e recebemos a força que o chão faz sobre nós, caso
-                contrário afundaríamos.
-
-                A porta automática dos shoppings, que funciona a partir da Mecânica Relativística.
-            </p>
-
-            <div class="content-page">
-                <h2 class="title">Mecânica: Entendendo o Movimento e Repouso dos Corpos</h2>
-                <p class="section-text">A mecânica é uma das áreas fundamentais da Física e estuda como os corpos se movem e permanecem em repouso sob a ação (ou ausência) de forças. Dividida em três principais subáreas — Mecânica Clássica, Mecânica Relativística e Mecânica Quântica — ela nos permite calcular velocidades, prever trajetórias, determinar o alcance máximo de lançamentos, medir a aceleração da gravidade, entre outros fenômenos.</p>
-                <div class="image-section">
-                    <img src="../img/formulas-mecanica.png" alt="explicação">
-                </div>
-                <p>Importância da Mecânica: Com ela, investigamos as causas e os efeitos do movimento e repouso dos corpos, e podemos até entender mais sobre o próprio Universo!</p> 
+        <div class="addresses">
+            <div class="address">
+                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
             </div>
-            <p class="section-text">
-                <h2 class="title">Breve História da Mecânica</h2>
-                A mecânica teve seu marco inicial nas leis de movimento de Isaac Newton, publicadas em seu livro Princípios Matemáticos da Filosofia Natural, mas suas ideias e fenômenos existiram desde o início do Universo. Hoje, a mecânica é essencial para várias profissões, como pilotos, físicos, meteorologistas, geólogos, engenheiros e arquitetos
-            </p>
-            <p class="section-text">
-                <h2 class="title">Aplicações da Mecânica no Cotidiano</h2>
-                A mecânica explica muitos fenômenos do nosso dia a dia, e é comum ver esses conceitos caindo no vestibular. Veja alguns exemplos:
-            </p>
-            <div class="list">
-                <p>Queda Livre: Corpos caem devido à força da gravidade.</p>
-                <p>Aceleração e Força: Quando aplicamos uma força em um corpo, ele acelera (Lei Fundamental da Dinâmica).</p>
-                <p>Acidentes de Carro: A mecânica explica como a velocidade e o atrito afetam um carro ao sair de uma curva.</p>
-                <p>Alavancas: Usamos princípios de alavanca ao abrir uma maçaneta ou brincar em uma gangorra.</p>
-                <p>Órbitas e Satélites: A gravidade mantém planetas e satélites em órbita.</p>
-                <p>Máquinas Simples: Roldanas, planos inclinados, balanças e talhas facilitam tarefas usando princípios mecânicos</p>
-                <p>Caminhar: Quando andamos, aplicamos força no chão e recebemos uma força em reação, permitindo que nos movamos sem "afundar".</p>
-                <p>Portas Automáticas: A mecânica relativística ajuda no funcionamento das portas automáticas em shoppings!</p>
+            <div class="divider"></div>
+            <div class="address">
+                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
             </div>
-            <p class="section-text">Para aprender mais sobre o conteúdo de Mecânica, clique aqui
-                <li><a href="../pages/dinamica.html">Dinâmica</a></li>
-                <li><a href="../pages/cinematica.html">Cinemática</a></li>
-                <li><a href="../pages/trabalho-potencia-energia.html">Trabalho, potência e energia</a></li>
-            </p>
-        </section>
-
-            <footer>
-                <div class="social-media-container">
-                    <div class="social-media">
-                        <a href="https://www.facebook.com/senaisp.valinhos?_rdr" class="social-icon"><img src="../img/facebook.png" alt="Facebook"></a>
-                        <a href="https://www.instagram.com/senaivalinhos/" class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
-                        <a href="https://api.whatsapp.com/send?phone=1938297800" class="social-icon"><img src="../img/WhatsApp.png" alt="WhatsApp"></a>
-                        <a href="https://www.youtube.com/channel/UCzqd0VpWU_w4BKwmSvFdieQ" class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
-                        <a href="https://www.linkedin.com/school/senai-de-valinhos/posts/?feedView=all" class="social-icon"><img src="../img/Linkedin.png" alt="LinkedIn"></a>
-                    </div>
-                </div>
-
-                <div class="addresses">
-                    <div class="address">
-                        <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
-                        <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="address">
-                        <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
-                        <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
-                    </div>
-                </div>
-            </footer>
-</body>
-
-</html>
+        </div>
+    </footer>
