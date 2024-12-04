@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/termologia-simulado.css">
+    <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
+    <script src="../global.js"></script>
+    <title>Simulado Eletrica</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="/pages/cadastro.html">Cadastre-se</a></li>
+                </ul>
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+                <div class="menu-mobile" id="menu-materias">
+                    <nav class="menu-materias" id="menu-materias">
+                        <ul>
+                            <li><a href="https://lp-projeto.vercel.app/">Português</a> </li>
+                            <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                            <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                            <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                            <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                            <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                            <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                            <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="line-separar"></div>
+
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Física Moderna</h1>
+            </div>
+        </div>
+    </div>
+    <form id="quizFormFisicaModerna" onsubmit="mostrarRespostas(); return false;">
+        <fieldset>
+            <div class="question">
+                <p>1. Qual teoria propõe que a velocidade da luz no vácuo é constante?</p>
+                <label><input type="radio" name="questao1" value="a"> a) Teoria da Gravitação</label><br>
+                <label><input type="radio" name="questao1" value="b"> b) Teoria da Relatividade Restrita</label><br>
+                <label><input type="radio" name="questao1" value="c"> c) Teoria Eletromagnética</label><br>
+                <label><input type="radio" name="questao1" value="d"> d) Teoria Quântica</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>2. Qual partícula foi a primeira evidência experimental da dualidade onda-partícula?</p>
+                <label><input type="radio" name="questao2" value="a"> a) Elétron</label><br>
+                <label><input type="radio" name="questao2" value="b"> b) Nêutron</label><br>
+                <label><input type="radio" name="questao2" value="c"> c) Fóton</label><br>
+                <label><input type="radio" name="questao2" value="d"> d) Próton</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>3. Qual cientista desenvolveu a equação que descreve o comportamento quântico dos elétrons?</p>
+                <label><input type="radio" name="questao3" value="a"> a) Albert Einstein</label><br>
+                <label><input type="radio" name="questao3" value="b"> b) Max Planck</label><br>
+                <label><input type="radio" name="questao3" value="c"> c) Erwin Schrödinger</label><br>
+                <label><input type="radio" name="questao3" value="d"> d) Niels Bohr</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>4. O que ocorre em um decaimento beta negativo?</p>
+                <label><input type="radio" name="questao4" value="a"> a) Um próton se transforma em um nêutron</label><br>
+                <label><input type="radio" name="questao4" value="b"> b) Um nêutron se transforma em um próton</label><br>
+                <label><input type="radio" name="questao4" value="c"> c) Um fóton é emitido</label><br>
+                <label><input type="radio" name="questao4" value="d"> d) Um átomo perde energia por radiação</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>5. Qual é o principal postulado do modelo atômico de Bohr?</p>
+                <label><input type="radio" name="questao5" value="a"> a) Elétrons movem-se em órbitas elípticas</label><br>
+                <label><input type="radio" name="questao5" value="b"> b) Elétrons podem ocupar qualquer nível de energia</label><br>
+                <label><input type="radio" name="questao5" value="c"> c) Elétrons movem-se em órbitas específicas e quantizadas</label><br>
+                <label><input type="radio" name="questao5" value="d"> d) O núcleo é formado por prótons e elétrons</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>6. O que representa o efeito fotoelétrico?</p>
+                <label><input type="radio" name="questao6" value="a"> a) A emissão de elétrons ao absorverem fótons</label><br>
+                <label><input type="radio" name="questao6" value="b"> b) A conversão de fótons em prótons</label><br>
+                <label><input type="radio" name="questao6" value="c"> c) A criação de pares elétron-próton</label><br>
+                <label><input type="radio" name="questao6" value="d"> d) A dispersão de luz em prismas</label>
+                <span class="resposta-certa">Resposta: a</span>
+            </div>
+            <div class="question">
+                <p>7. Qual partícula é composta por dois quarks up e um quark down?</p>
+                <label><input type="radio" name="questao7" value="a"> a) Nêutron</label><br>
+                <label><input type="radio" name="questao7" value="b"> b) Próton</label><br>
+                <label><input type="radio" name="questao7" value="c"> c) Elétron</label><br>
+                <label><input type="radio" name="questao7" value="d"> d) Positron</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>8. Qual conceito descreve a energia necessária para remover um elétron de um átomo?</p>
+                <label><input type="radio" name="questao8" value="a"> a) Energia de ligação</label><br>
+                <label><input type="radio" name="questao8" value="b"> b) Energia de excitação</label><br>
+                <label><input type="radio" name="questao8" value="c"> c) Energia de ionização</label><br>
+                <label><input type="radio" name="questao8" value="d"> d) Energia de absorção</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>9. Qual é a equação da equivalência massa-energia proposta por Einstein?</p>
+                <label><input type="radio" name="questao9" value="a"> a) E = m / c</label><br>
+                <label><input type="radio" name="questao9" value="b"> b) E = m × c²</label><br>
+                <label><input type="radio" name="questao9" value="c"> c) E = m × c</label><br>
+                <label><input type="radio" name="questao9" value="d"> d) E = m² × c²</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>10. Qual fenômeno é evidência da quantização da energia em átomos?</p>
+                <label><input type="radio" name="questao10" value="a"> a) Difração de luz</label><br>
+                <label><input type="radio" name="questao10" value="b"> b) Espectro contínuo</label><br>
+                <label><input type="radio" name="questao10" value="c"> c) Espectro de emissão</label><br>
+                <label><input type="radio" name="questao10" value="d"> d) Refração de luz</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar Respostas">
+    </form>
+                </fieldset>
+                <footer>
+                    <div class="social-media-container">
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL" class="social-icon"><img
+                                    src="../img/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+                                class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                            <a href="https://api.whatsapp.com/send?phone=551133220050" class="social-icon"><img
+                                    src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                            <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+                                class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                            <a href="https://www.linkedin.com/school/senai-de-valinhos/" class="social-icon"><img
+                                    src="../img/Linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="addresses">
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                            <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                            <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+                        </div>
+                    </div>
+                </footer>
+</body>
+</html>
