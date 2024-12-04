@@ -18,7 +18,7 @@
 }
 
 .text-home {
-    width: 500px;
+    width: 50%;
     display: flex;
 }
 
@@ -39,17 +39,18 @@
 }
 
 .image-home-text img {
-    width: 500px;
+    width: 70%;
     border-radius: 15px;    
 }
 
 .conteudo-home {
     display: flex;
-    gap: 15%;
+    gap: 30%;
     justify-content: center;
     margin-top: 80px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
+    margin-left: 17%;
 }
 
 .titulos-conteudos {
@@ -68,6 +69,7 @@
     font-family: "Montserrat", sans-serif;
     border-bottom: 3px solid #a60000;
     width: fit-content;
+    cursor: pointer;
 }
 
 .foto-participantes {
@@ -101,12 +103,23 @@
     border-radius: 50%;
     border: 5px solid var(--detalhes);
 }
-.foto-participante :hover {
-    transform: scale(1.09);
-    
-}
 
 .foto-participante span {
     text-shadow: 0 0 5px var(--main-color);
 }
+
+@media (max-width: 768px) {
+    .conteudo-home {
+        margin-left: 6%;
+    }
+
+    .text-home p {
+        width: 200px;
+    }
+
+    .image-home-text img {
+        width: 300px;
+    }
+}
+
 
