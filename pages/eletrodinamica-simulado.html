@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/termologia-simulado.css">
+    <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
+    <script src="../global.js"></script>
+    <title>Simulado Eletrica</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="/pages/cadastro.html">Cadastre-se</a></li>
+                </ul>
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+                <div class="menu-mobile" id="menu-materias">
+                    <nav class="menu-materias" id="menu-materias">
+                        <ul>
+                            <li><a href="https://lp-projeto.vercel.app/">Português</a> </li>
+                            <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                            <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                            <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                            <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                            <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                            <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                            <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="line-separar"></div>
+
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Eletrodinâmica</h1>
+            </div>
+        </div>
+    </div>
+    </div>
+    <form id="quizFormEletrodinamica" onsubmit="mostrarRespostas(); return false;">
+        <fieldset>
+            <div class="question">
+                <p>1. O que é corrente elétrica?</p>
+                <label><input type="radio" name="questao1" value="a"> a) A oposição à passagem de elétrons</label><br>
+                <label><input type="radio" name="questao1" value="b"> b) A diferença de potencial entre dois pontos</label><br>
+                <label><input type="radio" name="questao1" value="c"> c) O fluxo de cargas elétricas</label><br>
+                <label><input type="radio" name="questao1" value="d"> d) A quantidade de cargas em repouso</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>2. Qual é a unidade da potência elétrica no Sistema Internacional?</p>
+                <label><input type="radio" name="questao2" value="a"> a) Watt</label><br>
+                <label><input type="radio" name="questao2" value="b"> b) Joule</label><br>
+                <label><input type="radio" name="questao2" value="c"> c) Volt</label><br>
+                <label><input type="radio" name="questao2" value="d"> d) Coulomb</label>
+                <span class="resposta-certa">Resposta: a</span>
+            </div>
+            <div class="question">
+                <p>3. Em um circuito elétrico, o que acontece quando a resistência aumenta?</p>
+                <label><input type="radio" name="questao3" value="a"> a) A corrente aumenta</label><br>
+                <label><input type="radio" name="questao3" value="b"> b) A corrente diminui</label><br>
+                <label><input type="radio" name="questao3" value="c"> c) A tensão diminui</label><br>
+                <label><input type="radio" name="questao3" value="d"> d) O circuito entra em curto-circuito</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>4. Qual é a fórmula correta da Lei de Ohm?</p>
+                <label><input type="radio" name="questao4" value="a"> a) V = R / I</label><br>
+                <label><input type="radio" name="questao4" value="b"> b) V = I × R</label><br>
+                <label><input type="radio" name="questao4" value="c"> c) V = I² × R</label><br>
+                <label><input type="radio" name="questao4" value="d"> d) V = R² × I</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>5. Em um circuito em série, qual das afirmativas é verdadeira?</p>
+                <label><input type="radio" name="questao5" value="a"> a) A corrente é a mesma em todos os elementos</label><br>
+                <label><input type="radio" name="questao5" value="b"> b) A tensão é a mesma em todos os elementos</label><br>
+                <label><input type="radio" name="questao5" value="c"> c) A resistência total é menor que qualquer resistência individual</label><br>
+                <label><input type="radio" name="questao5" value="d"> d) A potência é igual para todos os resistores</label>
+                <span class="resposta-certa">Resposta: a</span>
+            </div>
+            <div class="question">
+                <p>6. Em um circuito paralelo, como se calcula a resistência equivalente?</p>
+                <label><input type="radio" name="questao6" value="a"> a) Soma de todas as resistências</label><br>
+                <label><input type="radio" name="questao6" value="b"> b) Produto das resistências dividido pela soma</label><br>
+                <label><input type="radio" name="questao6" value="c"> c) Inverso da soma dos inversos das resistências</label><br>
+                <label><input type="radio" name="questao6" value="d"> d) Diferença entre as resistências mais altas e baixas</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>7. Qual é a relação entre potência elétrica, corrente e tensão?</p>
+                <label><input type="radio" name="questao7" value="a"> a) P = V² / I</label><br>
+                <label><input type="radio" name="questao7" value="b"> b) P = I² × R</label><br>
+                <label><input type="radio" name="questao7" value="c"> c) P = V × I</label><br>
+                <label><input type="radio" name="questao7" value="d"> d) P = V / R</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>8. Qual é a unidade de medida da carga elétrica?</p>
+                <label><input type="radio" name="questao8" value="a"> a) Ampère</label><br>
+                <label><input type="radio" name="questao8" value="b"> b) Coulomb</label><br>
+                <label><input type="radio" name="questao8" value="c"> c) Watt</label><br>
+                <label><input type="radio" name="questao8" value="d"> d) Volt</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>9. O que acontece com a potência dissipada em um resistor quando a corrente dobra?</p>
+                <label><input type="radio" name="questao9" value="a"> a) Aumenta quatro vezes</label><br>
+                <label><input type="radio" name="questao9" value="b"> b) Permanece constante</label><br>
+                <label><input type="radio" name="questao9" value="c"> c) Diminui pela metade</label><br>
+                <label><input type="radio" name="questao9" value="d"> d) Aumenta duas vezes</label>
+                <span class="resposta-certa">Resposta: a</span>
+            </div>
+            <div class="question">
+                <p>10. Um resistor de 5 Ω é percorrido por uma corrente de 2 A. Qual é a tensão aplicada?</p>
+                <label><input type="radio" name="questao10" value="a"> a) 5 V</label><br>
+                <label><input type="radio" name="questao10" value="b"> b) 10 V</label><br>
+                <label><input type="radio" name="questao10" value="c"> c) 15 V</label><br>
+                <label><input type="radio" name="questao10" value="d"> d) 20 V</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar Respostas">
+    </form>
+                </fieldset>
+                <footer>
+                    <div class="social-media-container">
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL" class="social-icon"><img
+                                    src="../img/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+                                class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                            <a href="https://api.whatsapp.com/send?phone=551133220050" class="social-icon"><img
+                                    src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                            <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+                                class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                            <a href="https://www.linkedin.com/school/senai-de-valinhos/" class="social-icon"><img
+                                    src="../img/Linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="addresses">
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                            <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                            <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+                        </div>
+                    </div>
+                </footer>
+</body>
+</html>
