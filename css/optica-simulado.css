@@ -1,0 +1,77 @@
+@media (max-width: 768px){
+
+form{
+    padding: 15px;
+    box-shadow: none;
+}
+
+input[type="submit"]{
+    max-width: 100%;
+    font-size: 14px;
+}
+
+fieldset{
+    gap: 10px;
+}
+
+label{
+    font-size: 0.9em;
+}
+
+ .container-simulados{
+    grid-template-columns: 1fr;
+    gap: 20px;
+ }
+
+ .bloco-simulado{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+ }
+
+ .simulado-img-text{
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+ }
+
+ .align {
+    margin-left: 0;
+    text-align: center;
+ }
+
+ h1, h2{
+    font-size: 1.5em;
+ }
+
+ .simulados-img-txt{
+    font-size: 0.9;
+ }
+}
+
+@media(max-width: 480px){
+
+    form{
+        padding: 10px;
+    }
+
+    .question{
+        gap: 8px;
+    }
+
+    input[type="radio"]{
+        transform: scale(1.2);
+    }
+
+    input[type="submit"]{
+        font-size: 13px;
+    };
+
+    h1, h2{
+        font-size: 1.2em;
+    }
+
+    .simulado-img-text{
+        font-size: 0.8;
+    }
+}

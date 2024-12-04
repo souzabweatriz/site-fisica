@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,9 +10,13 @@
     --text-color: #ffffff;
     --secondary-color: #ffffff;
     --secondary-color-red: #a60000;
-}  
+}
 
-.titulo-quantica{
+body{
+    width: 100%;
+}
+
+.titulo-quantica {
     display: flex;
     justify-content: center;
     font-size: 2rem;
@@ -24,33 +28,39 @@
     font-weight: 1000;
 }
 
-.conteudo-page{
+.conteudo-page {
     flex-direction: column;
     width: 100%;
     display: flex;
     gap: 20px;
     text-align: justify;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0 10% 5em;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
     margin-top: 20px;
     margin-left: 8rem;
     border-bottom: 3px solid #a60000;
-    width:24.27%;
+    width: 24.27%;
 }
 
-.img-center{
+.text-section {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-left: 8rem;
+}
+
+.img-center {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-.img-center img{
+.img-center img {
     height: 34rem;
     width: 34rem;
     border-radius: 20px;
@@ -61,98 +71,151 @@ h2{
     transform: scale(1.09);
 }
 
-.conteudo-page2{
+.conteudo-page2 {
     flex-direction: column;
     width: 100%;
     display: flex;
     gap: 20px;
     text-align: justify;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0 10% 5em;
 }
 
-.conteudo-page2 h2{
+.conteudo-page2 h2 {
     font-size: 1.5rem;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
     margin-top: 20px;
     border-bottom: 3px solid #a60000;
-    width:26.2%;
+    width: 26.2%;
     margin-top: 7rem;
 }
 
-.conteudo-page3{
+.conteudo-page3 {
     flex-direction: column;
     width: 100%;
     display: flex;
     gap: 20px;
     text-align: justify;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0 10% 5em;
 }
 
-.conteudo-page3 h2{
+.conteudo-page3 h2 {
     font-size: 1.5rem;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
     border-bottom: 3px solid #a60000;
-    width:25.6%;
+    width: 25.6%;
     margin-top: 7rem;
 }
 
-c
-
-li.lista{
-    list-style: disc;
+ul {
+    margin-left: 9rem;
+    line-height: 2rem;
 }
 
-@media (max-width: 768px){
-    .conteudo-page{
-        padding: 0 5% 5em;
+li.lista {
+    list-style: disc;
+    line-height: 2rem;
+}
+
+@media (max-width: 320px) {
+
+    .titulo-quantica,
+    .titulo-conteudo {
+        font-size: 1.5rem;
+        margin-left: 0;
     }
 
-    h2{
-        margin-left: 0;
+    .conteudo-page,
+    .conteudo-page2,
+    .conteudo-page3 {
+        padding: 0 5%;
+    }
+
+    h2 {
         width: 100%;
-    }
-
-    .text-section p{
+        font-size: 1.2rem;
         margin-left: 0;
     }
 
-    p{
+    .text-section {
         margin-left: 0;
+    }
+
+    .img-center img {
+        width: 90%;
+        height: auto;
+    }
+
+    ul {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .titulo-quantica,
+    .titulo-conteudo {
+        font-size: 1.8rem;
+        margin-left: 0;
+    }
+
+    .conteudo-page,
+    .conteudo-page2,
+    .conteudo-page3 {
+        padding: 0 7%;
+    }
+
+    h2 {
         width: 100%;
-    }
-
-    .img-center{
-        margin-top: 10px;
-    }
-
-    .img-center img{
-        height: 20rem;
-        width: 20rem;
-    }
-
-    .conteudo-page2{
-        padding: 0 5% 5em;
-    }
-
-    .conteudo-page2 h2{
+        font-size: 1.3rem;
         margin-left: 0;
+    }
+
+    .text-section {
+        margin-left: 0;
+    }
+
+    .img-center img {
+        width: 80%;
+        height: auto;
+    }
+
+    ul {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    .titulo-quantica, .titulo-conteudo {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+
+    .conteudo-page, .conteudo-page2, .conteudo-page3 {
+        padding: 0 10%;
+    }
+
+    h2 {
         width: 100%;
-    }
-
-    .conteudo-page3{
-        padding: 0 5% 5em;
-    }
-
-    .conteudo-page3 h2{
+        font-size: 1.5rem;
         margin-left: 0;
-        width: 100%;
     }
 
-    ul{
+    .text-section {
         margin-left: 0;
+    }
+
+    .img-center img {
+        width: 70%;
+        height: auto;
+    }
+
+    .img-center img {
+        width: 70%;
+        height: auto;
     }
 }

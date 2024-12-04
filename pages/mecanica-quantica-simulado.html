@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/termologia-simulado.css">
+    <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
+    <script src="../global.js"></script>
+    <title>Simulado Eletrica</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="/pages/cadastro.html">Cadastre-se</a></li>
+                </ul>
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+                <div class="menu-mobile" id="menu-materias">
+                    <nav class="menu-materias" id="menu-materias">
+                        <ul>
+                            <li><a href="https://lp-projeto.vercel.app/">Português</a> </li>
+                            <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                            <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                            <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                            <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                            <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                            <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                            <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="line-separar"></div>
+
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Mecânica Quântica</h1>
+            </div>
+        </div>
+    </div>
+    <form id="quizFormMecanicaQuantica" onsubmit="mostrarRespostas(); return false;">
+        <fieldset>
+            <div class="question">
+                <p>1. O que é a função de onda em Mecânica Quântica?</p>
+                <label><input type="radio" name="questao1" value="a"> a) A trajetória exata de uma partícula</label><br>
+                <label><input type="radio" name="questao1" value="b"> b) A probabilidade de encontrar uma partícula em um estado</label><br>
+                <label><input type="radio" name="questao1" value="c"> c) A velocidade da partícula</label><br>
+                <label><input type="radio" name="questao1" value="d"> d) A energia total da partícula</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>2. Qual é o princípio de Heisenberg?</p>
+                <label><input type="radio" name="questao2" value="a"> a) A energia de um fóton é quantizada</label><br>
+                <label><input type="radio" name="questao2" value="b"> b) Não é possível determinar simultaneamente a posição e o momento com precisão</label><br>
+                <label><input type="radio" name="questao2" value="c"> c) A luz é composta de ondas e partículas</label><br>
+                <label><input type="radio" name="questao2" value="d"> d) O elétron se comporta como uma onda em órbitas quantizadas</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>3. Qual equação descreve a evolução temporal de uma função de onda?</p>
+                <label><input type="radio" name="questao3" value="a"> a) E = m × c²</label><br>
+                <label><input type="radio" name="questao3" value="b"> b) Princípio de Heisenberg</label><br>
+                <label><input type="radio" name="questao3" value="c"> c) Equação de Schrödinger</label><br>
+                <label><input type="radio" name="questao3" value="d"> d) Lei de Coulomb</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>4. Qual conceito descreve que uma partícula pode existir em múltiplos estados simultaneamente?</p>
+                <label><input type="radio" name="questao4" value="a"> a) Entanglement</label><br>
+                <label><input type="radio" name="questao4" value="b"> b) Superposição</label><br>
+                <label><input type="radio" name="questao4" value="c"> c) Colapso da Função de Onda</label><br>
+                <label><input type="radio" name="questao4" value="d"> d) Dualidade Onda-Partícula</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>5. O que ocorre durante o "colapso da função de onda"?</p>
+                <label><input type="radio" name="questao5" value="a"> a) Uma partícula deixa de existir</label><br>
+                <label><input type="radio" name="questao5" value="b"> b) A função de onda se divide em duas</label><br>
+                <label><input type="radio" name="questao5" value="c"> c) A partícula assume um estado definido</label><br>
+                <label><input type="radio" name="questao5" value="d"> d) A energia da partícula aumenta</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>6. O que descreve o entrelaçamento quântico (entanglement)?</p>
+                <label><input type="radio" name="questao6" value="a"> a) Partículas possuem trajetórias idênticas</label><br>
+                <label><input type="radio" name="questao6" value="b"> b) Partículas emaranhadas têm estados independentes</label><br>
+                <label><input type="radio" name="questao6" value="c"> c) O estado de uma partícula depende do estado de outra, mesmo à distância</label><br>
+                <label><input type="radio" name="questao6" value="d"> d) O colapso ocorre apenas para uma partícula</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>7. Qual interpretação sugere que todas as possibilidades quânticas realmente ocorrem?</p>
+                <label><input type="radio" name="questao7" value="a"> a) Interpretação de Copenhague</label><br>
+                <label><input type="radio" name="questao7" value="b"> b) Interpretação dos Muitos Mundos</label><br>
+                <label><input type="radio" name="questao7" value="c"> c) Interpretação Determinista</label><br>
+                <label><input type="radio" name="questao7" value="d"> d) Interpretação Clássica</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>8. O que significa o termo "quantização" em Mecânica Quântica?</p>
+                <label><input type="radio" name="questao8" value="a"> a) A energia pode ter qualquer valor</label><br>
+                <label><input type="radio" name="questao8" value="b"> b) A energia só pode assumir valores discretos</label><br>
+                <label><input type="radio" name="questao8" value="c"> c) As partículas seguem trajetórias contínuas</label><br>
+                <label><input type="radio" name="questao8" value="d"> d) O tempo é quantizado</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>9. Qual fenômeno mostra a dualidade onda-partícula dos elétrons?</p>
+                <label><input type="radio" name="questao9" value="a"> a) Experimento da Fenda Dupla</label><br>
+                <label><input type="radio" name="questao9" value="b"> b) Decaimento Radioativo</label><br>
+                <label><input type="radio" name="questao9" value="c"> c) Efeito Fotoelétrico</label><br>
+                <label><input type="radio" name="questao9" value="d"> d) Entropia Quântica</label>
+                <span class="resposta-certa">Resposta: a</span>
+            </div>
+            <div class="question">
+                <p>10. Qual é a constante de Planck?</p>
+                <label><input type="radio" name="questao10" value="a"> a) h = 6,63 × 10⁻³⁴ J·s</label><br>
+                <label><input type="radio" name="questao10" value="b"> b) h = 3,00 × 10⁸ m/s</label><br>
+                <label><input type="radio" name="questao10" value="c"> c) h = 1,60 × 10⁻¹⁹ J</label><br>
+                <label><input type="radio" name="questao10" value="d"> d) h = 9,81 m/s²</label>
+                <span class="resposta-certa">Resposta: a</span>
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar Respostas">
+    </form>
+                </fieldset>
+                <footer>
+                    <div class="social-media-container">
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL" class="social-icon"><img
+                                    src="../img/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+                                class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                            <a href="https://api.whatsapp.com/send?phone=551133220050" class="social-icon"><img
+                                    src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                            <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+                                class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                            <a href="https://www.linkedin.com/school/senai-de-valinhos/" class="social-icon"><img
+                                    src="../img/Linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="addresses">
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                            <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                            <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+                        </div>
+                    </div>
+                </footer>
+</body>
+</html>

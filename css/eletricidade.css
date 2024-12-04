@@ -51,7 +51,13 @@ h2{
     margin-top: 20px;
     margin-left: 8rem;
     border-bottom: 3px solid #a60000;
-    width:24.27%;
+    width:10.3%;
+}
+
+.text-section{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-left: 8rem;
 }
 
 .text-section p{
@@ -60,11 +66,6 @@ h2{
     word-spacing: 0.1em;
     text-align-last: left;
     margin-left: 8rem;
-}
-
-p{
-    margin-left: 8rem;
-    width: 85%;
 }
 
 .img-center{
@@ -96,10 +97,10 @@ p{
     font-size: 1.5rem;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
-    margin-top: 20px;
+    margin-top: 6rem;
     margin-left: 8rem;
     border-bottom: 3px solid #a60000;
-    width:24.27%;
+    width:18.5%;
 }
 
 .conteudo-page3{
@@ -110,6 +111,7 @@ p{
     text-align: justify;
     font-family:'Montserrat', sans-serif;
     padding: 0 10% 5em;
+    margin-top: 2rem;
 }
 
 .conteudo-page3 h2{

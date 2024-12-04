@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/cinematica-simulado.css">
+    <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
+    <script src="../global.js"></script>
+    <title>Simulado Cinemática</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="/pages/cadastro.html">Cadastre-se</a></li>
+                </ul>
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+                <div class="menu-mobile" id="menu-materias">
+                    <nav class="menu-materias" id="menu-materias">
+                        <ul>
+                            <li><a href="https://lp-projeto.vercel.app/">Português</a> </li>
+                            <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                            <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                            <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                            <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                            <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                            <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                            <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="line-separar"></div>
+
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Cinemática</h1>
+                <form id="quizForm" onsubmit="mostrarRespostas(); return false;">
+                    <fieldset>
+                        <div class="question">
+                            <p>1. Um carro parte do repouso e atinge a velocidade de 72 km/h em 10 segundos. Qual é a aceleração média?</p>
+                            <label><input type="radio" name="questao1" value="a"> a) 2 m/s²</label><br>
+                            <label><input type="radio" name="questao1" value="b"> b) 3 m/s²</label><br>
+                            <label><input type="radio" name="questao1" value="c"> c) 4 m/s²</label><br>
+                            <label><input type="radio" name="questao1" value="d"> d) 7 m/s²</label>
+                            <span class="resposta-certa">Resposta: a</span>
+                        </div>
+                        <div class="question">
+                            <p>2. Um ciclista percorre 100 m em 10 segundos. Qual é sua velocidade média?</p>
+                            <label><input type="radio" name="questao2" value="a"> a) 5 m/s</label><br>
+                            <label><input type="radio" name="questao2" value="b"> b) 10 m/s</label><br>
+                            <label><input type="radio" name="questao2" value="c"> c) 15 m/s</label><br>
+                            <label><input type="radio" name="questao2" value="d"> d) 20 m/s</label>
+                            <span class="resposta-certa">Resposta: b</span>
+                        </div>
+                        <div class="question">
+                            <p>3. Um objeto em queda livre tem uma aceleração aproximada de:</p>
+                            <label><input type="radio" name="questao3" value="a"> a) 8 m/s²</label><br>
+                            <label><input type="radio" name="questao3" value="b"> b) 9,8 m/s²</label><br>
+                            <label><input type="radio" name="questao3" value="c"> c) 10,2 m/s²</label><br>
+                            <label><input type="radio" name="questao3" value="d"> d) 12 m/s²</label>
+                            <span class="resposta-certa">Resposta: b</span>
+                        </div>
+                        <div class="question">
+                            <p>4. Qual das opções abaixo é uma unidade de velocidade?</p>
+                            <label><input type="radio" name="questao4" value="a"> a) m/s</label><br>
+                            <label><input type="radio" name="questao4" value="b"> b) kg/s</label><br>
+                            <label><input type="radio" name="questao4" value="c"> c) m²/s²</label><br>
+                            <label><input type="radio" name="questao4" value="d"> d) s/m</label>
+                            <span class="resposta-certa">Resposta: a</span>
+                        </div>
+                        <div class="question">
+                            <p>5. Um avião voa a 800 km/h. Qual a distância percorrida em 2 horas?</p>
+                            <label><input type="radio" name="questao5" value="a"> a) 800 km</label><br>
+                            <label><input type="radio" name="questao5" value="b"> b) 1200 km</label><br>
+                            <label><input type="radio" name="questao5" value="c"> c) 1600 km</label><br>
+                            <label><input type="radio" name="questao5" value="d"> d) 2000 km</label>
+                            <span class="resposta-certa">Resposta: c</span>
+                        </div>
+                        <div class="question">
+                            <p>6. Um carro mantém velocidade constante de 60 km/h por 30 minutos. Qual a distância percorrida?</p>
+                            <label><input type="radio" name="questao6" value="a"> a) 15 km</label><br>
+                            <label><input type="radio" name="questao6" value="b"> b) 20 km</label><br>
+                            <label><input type="radio" name="questao6" value="c"> c) 30 km</label><br>
+                            <label><input type="radio" name="questao6" value="d"> d) 60 km</label>
+                            <span class="resposta-certa">Resposta: c</span>
+                        </div>
+                        <div class="question">
+                            <p>7. Em um movimento uniformemente variado, o que permanece constante?</p>
+                            <label><input type="radio" name="questao7" value="a"> a) Velocidade</label><br>
+                            <label><input type="radio" name="questao7" value="b"> b) Aceleração</label><br>
+                            <label><input type="radio" name="questao7" value="c"> c) Distância</label><br>
+                            <label><input type="radio" name="questao7" value="d"> d) Tempo</label>
+                            <span class="resposta-certa">Resposta: b</span>
+                        </div>
+                        <div class="question">
+                            <p>8. Uma pedra é jogada para cima com velocidade inicial de 20 m/s. Qual a altura máxima atingida?</p>
+                            <label><input type="radio" name="questao8" value="a"> a) 10 m</label><br>
+                            <label><input type="radio" name="questao8" value="b"> b) 20 m</label><br>
+                            <label><input type="radio" name="questao8" value="c"> c) 40 m</label><br>
+                            <label><input type="radio" name="questao8" value="d"> d) 50 m</label>
+                            <span class="resposta-certa">Resposta: c</span>
+                        </div>
+                        <div class="question">
+                            <p>9. Qual a fórmula da velocidade média?</p>
+                            <label><input type="radio" name="questao9" value="a"> a) Vm = Δs/Δt</label><br>
+                            <label><input type="radio" name="questao9" value="b"> b) Vm = Δt/Δs</label><br>
+                            <label><input type="radio" name="questao9" value="c"> c) Vm = Δv/Δt</label><br>
+                            <label><input type="radio" name="questao9" value="d"> d) Vm = Δt²/Δs</label>
+                            <span class="resposta-certa">Resposta: a</span>
+                        </div>
+                        <div class="question">
+                            <p>10. Em MRU, o gráfico da posição em função do tempo é:</p>
+                            <label><input type="radio" name="questao10" value="a"> a) Curvilíneo</label><br>
+                            <label><input type="radio" name="questao10" value="b"> b) Uma parábola</label><br>
+                            <label><input type="radio" name="questao10" value="c"> c) Uma linha reta</label><br>
+                            <label><input type="radio" name="questao10" value="d"> d) Oscilante</label>
+                            <span class="resposta-certa">Resposta: c</span>
+                        </div>
+                        <input type="submit" value="Enviar Respostas">
+                </form>
+                <script>
+                    function mostrarRespostas() {
+                        document.getElementById('quizForm').classList.add('show-answer');
+                    }
+                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+                </fieldset>
+                <footer>
+                    <div class="social-media-container">
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL" class="social-icon"><img
+                                    src="../img/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+                                class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                            <a href="https://api.whatsapp.com/send?phone=551133220050" class="social-icon"><img
+                                    src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                            <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+                                class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                            <a href="https://www.linkedin.com/school/senai-de-valinhos/" class="social-icon"><img
+                                    src="../img/Linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="addresses">
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                            <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                            <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+                        </div>
+                    </div>
+                </footer>
+</body>
+</html>

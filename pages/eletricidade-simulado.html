@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/termologia-simulado.css">
+    <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
+    <script src="../global.js"></script>
+    <title>Simulado Eletrica</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="/pages/cadastro.html">Cadastre-se</a></li>
+                </ul>
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+                <div class="menu-mobile" id="menu-materias">
+                    <nav class="menu-materias" id="menu-materias">
+                        <ul>
+                            <li><a href="https://lp-projeto.vercel.app/">Português</a> </li>
+                            <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                            <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                            <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                            <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                            <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                            <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                            <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="line-separar"></div>
+
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Eletricidade</h1>
+            </div>
+        </div>
+    </div>
+    <form id="quizFormEletricidade" onsubmit="mostrarRespostas(); return false;">
+        <fieldset>
+            <div class="question">
+                <p>1. Qual é a carga elétrica do elétron?</p>
+                <label><input type="radio" name="questao1" value="a"> a) +1,6 × 10⁻¹⁹ C</label><br>
+                <label><input type="radio" name="questao1" value="b"> b) -1,6 × 10⁻¹⁹ C</label><br>
+                <label><input type="radio" name="questao1" value="c"> c) 0 C</label><br>
+                <label><input type="radio" name="questao1" value="d"> d) +1 C</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>2. Qual é a unidade de resistência elétrica no SI?</p>
+                <label><input type="radio" name="questao2" value="a"> a) Volt</label><br>
+                <label><input type="radio" name="questao2" value="b"> b) Ampère</label><br>
+                <label><input type="radio" name="questao2" value="c"> c) Ohm</label><br>
+                <label><input type="radio" name="questao2" value="d"> d) Joule</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>3. O que acontece quando duas cargas de mesmo sinal se aproximam?</p>
+                <label><input type="radio" name="questao3" value="a"> a) Elas se atraem</label><br>
+                <label><input type="radio" name="questao3" value="b"> b) Elas se repelem</label><br>
+                <label><input type="radio" name="questao3" value="c"> c) Elas perdem energia</label><br>
+                <label><input type="radio" name="questao3" value="d"> d) Não ocorre interação</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>4. Qual é a fórmula da Lei de Coulomb?</p>
+                <label><input type="radio" name="questao4" value="a"> a) F = k (q₁q₂) / r</label><br>
+                <label><input type="radio" name="questao4" value="b"> b) F = k (q₁q₂) / r²</label><br>
+                <label><input type="radio" name="questao4" value="c"> c) F = q₁q₂ / r²</label><br>
+                <label><input type="radio" name="questao4" value="d"> d) F = k r / (q₁q₂)</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>5. Qual partícula tem carga positiva no núcleo do átomo?</p>
+                <label><input type="radio" name="questao5" value="a"> a) Elétron</label><br>
+                <label><input type="radio" name="questao5" value="b"> b) Próton</label><br>
+                <label><input type="radio" name="questao5" value="c"> c) Nêutron</label><br>
+                <label><input type="radio" name="questao5" value="d"> d) Íon</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>6. O que acontece quando conectamos dois corpos com potenciais diferentes por um fio condutor?</p>
+                <label><input type="radio" name="questao6" value="a"> a) O corpo com maior potencial perde carga</label><br>
+                <label><input type="radio" name="questao6" value="b"> b) O corpo com menor potencial ganha carga</label><br>
+                <label><input type="radio" name="questao6" value="c"> c) Ambos atingem equilíbrio de potencial</label><br>
+                <label><input type="radio" name="questao6" value="d"> d) Ambos perdem energia</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>7. Como podemos aumentar a capacitância de um capacitor plano?</p>
+                <label><input type="radio" name="questao7" value="a"> a) Diminuindo a área das placas</label><br>
+                <label><input type="radio" name="questao7" value="b"> b) Aumentando a distância entre as placas</label><br>
+                <label><input type="radio" name="questao7" value="c"> c) Inserindo um dielétrico entre as placas</label><br>
+                <label><input type="radio" name="questao7" value="d"> d) Diminuindo o campo elétrico</label>
+                <span class="resposta-certa">Resposta: c</span>
+            </div>
+            <div class="question">
+                <p>8. Qual a relação entre corrente elétrica (I), carga elétrica (Q) e tempo (t)?</p>
+                <label><input type="radio" name="questao8" value="a"> a) I = Q + t</label><br>
+                <label><input type="radio" name="questao8" value="b"> b) I = Q / t</label><br>
+                <label><input type="radio" name="questao8" value="c"> c) I = t / Q</label><br>
+                <label><input type="radio" name="questao8" value="d"> d) I = Q × t</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>9. Qual é a energia potencial elétrica de uma carga q em um campo elétrico uniforme E?</p>
+                <label><input type="radio" name="questao9" value="a"> a) U = q × E</label><br>
+                <label><input type="radio" name="questao9" value="b"> b) U = q × E × d</label><br>
+                <label><input type="radio" name="questao9" value="c"> c) U = q / E × d</label><br>
+                <label><input type="radio" name="questao9" value="d"> d) U = E × d / q</label>
+                <span class="resposta-certa">Resposta: b</span>
+            </div>
+            <div class="question">
+                <p>10. Qual é o valor aproximado da constante eletrostática k no vácuo?</p>
+                <label><input type="radio" name="questao10" value="a"> a) 9 × 10⁹ N·m²/C²</label><br>
+                <label><input type="radio" name="questao10" value="b"> b) 1 × 10⁹ N·m²/C²</label><br>
+                <label><input type="radio" name="questao10" value="c"> c) 9 × 10⁻⁹ N·m²/C²</label><br>
+                <label><input type="radio" name="questao10" value="d"> d) 1 × 10⁻⁹ N·m²/C²</label>
+                <span class="resposta-certa">Resposta: a</span>
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar Respostas">
+    </form>
+    <script>
+        function mostrarRespostas() {
+            document.getElementById('quizFormEletricidade').classList.add('show-answer');
+        }
+    </script>
+    
+    
+    </div>
+                </fieldset>
+                <footer>
+                    <div class="social-media-container">
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL" class="social-icon"><img
+                                    src="../img/facebook.png" alt="Facebook"></a>
+                            <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+                                class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                            <a href="https://api.whatsapp.com/send?phone=551133220050" class="social-icon"><img
+                                    src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                            <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+                                class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                            <a href="https://www.linkedin.com/school/senai-de-valinhos/" class="social-icon"><img
+                                    src="../img/Linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="addresses">
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                            <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="address">
+                            <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                            <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+                        </div>
+                    </div>
+                </footer>
+</body>
+</html>
