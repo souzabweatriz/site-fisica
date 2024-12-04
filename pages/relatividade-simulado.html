@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/optica-simulado.css">
+    <link rel="icon" href="/img/fisica.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado de Relatividade</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+                <div class="menu-mobile" id="menu-materias">
+                    <nav class="menu-materias" id="menu-materias">
+                        <ul>
+                            <li><a href="https://lp-projeto.vercel.app/">Português</a> </li>
+                            <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                            <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                            <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                            <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                            <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                            <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                            <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <div class="line-separar"></div>
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Relatividade</h1>
+            </div>
+        </div>
+    </div>
+    <form id="quizForm" onsubmit="mostrarRespostas(); return false;">
+        <fieldset>
+            <legend>Relatividade</legend>
+            <div class="question">
+                <p>1. As teorias da relatividade restrita e geral possibilitaram o desenvolvimento de diversas tecnologias e a explicação de vários fenômenos físicos. Qual das tecnologias abaixo não é uma aplicação das teorias da relatividade?</p>
+                <label><input type="radio" name="questao1" value="a"> a) Para-raios. </label>
+                <label><input type="radio" name="questao1" value="b"> b) Tubos de raios catódicos.</label>
+                <label><input type="radio" name="questao1" value="c"> c) Bombas nucleares.</label>
+                <label><input type="radio" name="questao1" value="c"> c) Eletroímãs.</label>
+                <span class="resposta-certa">Resposta: a</span>
+            </div>
+            <div class="question">
+                <p>2. (UEG-GO) Antes mesmo de ter uma ideia mais correta do que é a luz, o homem percebeu que ela era capaz de percorrer muito depressa enormes distâncias. Tão depressa que levou Aristóteles – famoso pensador grego que viveu no século IV a.C. e cujas obras influenciaram todo o mundo ocidental até a Renascença – a admitir que a velocidade da luz seria infinita.
+
+                    <p>GUIMARÃES, L. A.; BOA, M. F. “Termologia e óptica”. São Paulo: Harbra, 1997. p. 177</p>
+                    
+                    Hoje se sabe que a luz tem velocidade de aproximadamente 300.000 km/s, que é uma velocidade muito grande, porém finita. A teoria moderna que admite a velocidade da luz constante em qualquer referencial e, portanto, torna elásticas as dimensões do espaço e do tempo é:</p>
+                <label><input type="radio" name="questao2" value="a"> a)  A teoria da relatividade.</label>
+                <label><input type="radio" name="questao2" value="b"> b) A teoria da dualidade onda-partícula.</label>
+                <label><input type="radio" name="questao2" value="c"> c) A teoria atômica de Bohr.</label>
+                <label><input type="radio" name="questao2" value="c"> c) O princípio de Heisenberg.</label>
+                <span class="resposta-certa">Resposta: a</span>
+            </div>
+            <div class="question">
+                <p>3.  (UFRN) Raios cósmicos são partículas que bombardeiam continuamente a Terra. Eles são compostos, principalmente, de partículas alfa, prótons e neutrinos. Um neutrino vindo do espaço se desloca em relação à Terra com velocidade da luz igual a c. Para um foguete que se desloca com velocidade v em relação à Terra, em direção ao neutrino, esta partícula terá velocidade igual a:</p>
+
+
+                <label><input type="radio" name="questao2" value="a"> a) v – c</label>
+                <label><input type="radio" name="questao2" value="b"> b) v + c</label>
+                <label><input type="radio" name="questao2" value="c"> c) c</label>
+                <label><input type="radio" name="questao2" value="d"> d) v</label>
+                <span class="resposta-certa">Resposta: c
+                
+                </span>
+            </div>
+            <div class="question">
+                <p>4.(UFRGS-RS)De acordo com a teoria da relatividade, quando objetos se movem através do espaço-tempo com velocidades da ordem da velocidade da luz, as medidas de espaço e tempo sofrem alterações. A expressão da contração espacial é dada por:</p>
+                <img src="/img/formula.relatividade (1).jpg">
+
+                <p>em que v é a velocidade relativa entre o objeto observado e o observador, c é a velocidade de propagação da luz no vácuo, L é o comprimento medido para o objeto em movimento e \L_{0} é o comprimento medido para o objeto em repouso. A distância Sol – Terra para um observador fixo na Terra é \L_{0} = 1,5\cdot 10^{11}m. Para um nêutron com velocidade v = 0,6 \cdot c, essa distância é de:</p>
+                <label><input type="radio" name="questao2" value="a"> a) 1,2 · 1010 m </label>
+                <label><input type="radio" name="questao2" value="b"> b) 7,5 · 1010 m</label>
+                <label><input type="radio" name="questao2" value="c"> c) 1,0 · 1011 m</label>
+                <label><input type="radio" name="questao2" value="d"> d) 1,2 · 1011 m</label>
+                <span class="resposta-certa">Resposta: d>
+                </span>
+                <div class="question">
+                    <p>5. O que são os referenciais inerciais mencionados tantas vezes na teoria da relatividade?</p> 
+
+                    <label><input type="radio" name="questao2" value="a"> a)  referenciais para os quais não vale a primeira lei de Newton.</label>
+                    <label><input type="radio" name="questao2" value="b"> b) referenciais que se deslocam com velocidade não constante uns em relação aos outros.</label>
+                    <label><input type="radio" name="questao2" value="c"> c) referenciais que se deslocam com velocidade constante uns em relação aos outros.</label>
+                    <label><input type="radio" name="questao2" value="d"> d)referenciais que se deslocam com aceleração constante uns em relação aos outros.</label>
+                    <span class="resposta-certa">Resposta: C
+                    
+                </div>
+    <footer>
+        <div class="social-media-container">
+            <div class="social-media">
+                <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL" class="social-icon"><img src="../img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA==" class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                <a href="https://api.whatsapp.com/send?phone=551133220050" class="social-icon"><img src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv" class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                <a href="https://www.linkedin.com/school/senai-de-valinhos/" class="social-icon"><img src="../img/Linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    
+        <div class="addresses">
+            <div class="address">
+                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+            </div>
+            <div class="divider"></div>
+            <div class="address">
+                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+</body>
+</html>
