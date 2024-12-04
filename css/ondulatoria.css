@@ -49,6 +49,10 @@
     background-color: var(--secondary-color-red);
 }
 
+.text-content .postulado{
+    font-weight: bold;
+}
+
 .img-content img {
     width: 40%;
     height: 100%;
