@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/simulado.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/fisica-nuclear-simulado.css">
+    <link rel="icon" href="./img/fisica.ico" type="image/x-icon">
+    <script src="../global.js"></script>
+    <title>Simulado Física Nuclear</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="header">
+                <div class="image-header">
+                    <img src="/img/logo-sesi-senai.png" alt="">
+                </div>
+
+                <div class="line">
+                    <div class="traco"></div>
+                </div>
+
+                <ul class="nav-bar">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="/pages/cadastro.html">Cadastre-se</a></li>
+                </ul>
+                <button onclick="animar(), animarMenu()" id="btn-menu">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+                <div class="menu-mobile" id="menu-materias">
+                    <nav class="menu-materias" id="menu-materias">
+                        <ul>
+                            <li><a href="https://lp-projeto.vercel.app/">Português</a> </li>
+                            <li><a href="https://projeto-portal-matematica.vercel.app/">Matemática</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">História</a></li>
+                            <li><a href="https://projeto-geografia.vercel.app/">Geografia</a></li>
+                            <li><a href="https://site-biologia-41g2.vercel.app/">Biologia</a></li>
+                            <li class="fisica"><a href="fisica.html" class="sociologia-link">Física</a></li>
+                            <li><a href="https://portal-de-materias.vercel.app/">Química</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Artes</a></li>
+                            <li><a href="https://site-filosofia.vercel.app/">Filosofia</a></li>
+                            <li><a href="https://site-sociologia.vercel.app/">Sociologia</a></li>
+                            <li><a href="https://portal-noticias-html.vercel.app/">Ed. Física</a></li>
+                            <li><a href="https://site-ingles-theta.vercel.app/">Inglês</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="image-home">
+        <img src="/img/simulados-portal.png" alt="">
+    </div>
+
+    <section class="menu-sobre">
+        <nav>
+            <ul>
+                <li><a href="carreira.html">Carreiras</a></li>
+                <li><a href="dica.html">Dicas</a></li>
+                <li><a href="simulado.html" class="active">Simulados</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videoaula.html">Vídeo-aulas</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="line-separar"></div>
+
+    <div class="align">
+        <div class="titulos-conteudos">
+            <div class="titulo-conteudo">
+                <h1 class="titulo-participantes">Física nuclear</h1>
+                <form id="quizForm" onsubmit="mostrarRespostas(); return false;">
+                    <fieldset>
+                        <div class="question">
+                            <p>1. Calcule a energia nuclear liberada numa reação em cadeia de um mol de átomos de urânio (dado: 1 mol = 6 x 1023 átomos).</p>
+                            
+                         
+                            <label><input type="radio" name="questao1" value="a"> a) 2,2 x 1012 J.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) 3,8 x 1014 J.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) 1,92 x 1013 J.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) 5,47 x 1011J.</label>
+                            <label><input type="radio" name="questao1" value="c"> e) 1,6 x 1019 J.</label>
+                            <span class="resposta-certa">Resposta: c
+                              
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>2. Numa reação de fissão nuclear, 1 g de urânio é fissionado, liberando uma quantidade de energia equivalente a:
+
+                                <h5>Dados:
+                                
+                                c = 3,0.108 m/s</h5>
+                            </p>
+                   
+                            <label><input type="radio" name="questao1" value="a"> a) 4,5.108 J</label>
+                            <label><input type="radio" name="questao1" value="b"> b) 3,0.108 J</label>
+                            <label><input type="radio" name="questao1" value="c"> c) 9,0.1013 J.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) 3,0.1016 J</label>
+                            <label><input type="radio" name="questao1" value="c"> e) 9,0.1016 J</label>
+                            <span class="resposta-certa">Resposta: C
+                              
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>3. A energia lançada no espaço pelo Sol:</p>
+
+
+                            <label><input type="radio" name="questao1" value="a"> a) Provém das reações nucleares que ocorrem em seu interior por causa da alta pressão e da temperatura.</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Ocorrem na superfície.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) Ocorrem na fotosfera.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) Ocorrem na cromosfera.</label>
+                            <label><input type="radio" name="questao1" value="c"> e) Não ocorrem no Sol.</label>
+                            <span class="resposta-certa">Resposta: A
+                                
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>4. A utilização de tecnologia nuclear é um tema bastante controverso, por causa do risco de acidentes graves, como aqueles ocorridos em Chernobyl (1986), em Goiânia (1987) e em Fukushima (2011). Apesar de muitas desvantagens, como a geração de resíduos tóxicos, a descontaminação ambiental dispendiosa em caso de acidentes e a utilização em armas nucleares, a geração de energia nuclear apresenta vantagens em comparação a outras fontes de energia.
+                                <h5>A geração dessa energia tem como característica: </h5>
+                            </p>
+                            <label><input type="radio" name="questao1" value="a"> a) Formar resíduos facilmente recicláveis. .</label>
+                            <label><input type="radio" name="questao1" value="b"> b) Promover o aumento do desmatamento.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) Contribuir para a produção de chuva ácida.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) Produzir calor sem o consumo de combustíveis fósseis. </label>
+                            <span class="resposta-certa">Resposta: d
+
+                            </span>
+                        </div>
+                        <div class="question">
+                            <p>5. Os pesticidas organoclorados foram amplamente empregados na agricultura, contudo, em razão das suas elevadas toxicidades e persistências no meio ambiente, eles foram banidos. Considere a aplicação de 500 g de um pesticida organoclorado em uma cultura e que, em certas condições, o tempo de meia-vida do pesticida no solo seja de 5 anos.
+                                A massa do pesticida no decorrer de 35 anos será mais próxima de: </p>
+                            <label><input type="radio" name="questao1" value="a"> a) 3,9 g. </label>
+                            <label><input type="radio" name="questao1" value="b"> b) 31,2 g.</label>
+                            <label><input type="radio" name="questao1" value="c"> c) 62,5 g.</label>
+                            <label><input type="radio" name="questao1" value="c"> d) 125,0 g. </label>
+                            <span class="resposta-certa">Resposta: a
+                              
+                            </span>
+                        </div>
+                       
+    <footer>
+        <div class="social-media-container">
+            <div class="social-media">
+                <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL" class="social-icon"><img
+                        src="../img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
+                    class="social-icon"><img src="../img/Instagram.png" alt="Instagram"></a>
+                <a href="https://api.whatsapp.com/send?phone=551133220050" class="social-icon"><img
+                        src="../img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
+                    class="social-icon"><img src="../img/Youtube.png" alt="YouTube"></a>
+                <a href="https://www.linkedin.com/school/senai-de-valinhos/" class="social-icon"><img
+                        src="../img/Linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="addresses">
+            <div class="address">
+                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+            </div>
+            <div class="divider"></div>
+            <div class="address">
+                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
