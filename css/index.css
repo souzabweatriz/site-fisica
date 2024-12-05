@@ -36,6 +36,7 @@ body {
     font-size: 2rem;
     font-weight: 1000;
     font-family: "Montserrat", sans-serif;
+    width: 39%;
     border-bottom: 3px solid var(--secondary-color-red);
 }
 
@@ -121,6 +122,11 @@ body {
 }
 
 @media (max-width: 768px){
+
+    .apresentation {
+        margin-top: 20%;
+    }
+
     .line-p, .line-p2{
         width: 50%;
     }
